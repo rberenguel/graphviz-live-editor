@@ -9,6 +9,7 @@ Future improvements (I may or may not apply):
 - Add open source logo assets
 - I'd love to export to PNG, but so far canvg does not render dotted correctly. It's also extremely tricky to get right.
 
+Use/try it [here](http://rberenguel.github.io/graphviz-live-editor/).
 
 ---
 
