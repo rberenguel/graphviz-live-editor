@@ -1,0 +1,85 @@
+html, body {
+  background-color: black; position: fixed; height: 100%; width: 100%;}
+
+.CodeMirror * {
+  font-family: "Ubuntu Mono", "monoidregular", monospace;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+#container {
+  width: calc(49%-20px);
+  top: 10px;
+  left: 10px;
+  position: fixed;
+  background: #fff;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.22);
+  overflow: hidden;
+  border-radius: 0.8rem;
+  height: calc(90vh);  
+}
+#editor {
+  margin: 1rem;
+  position: relative;
+  width: 100%;
+  height: 90vh;
+}
+#graph {
+  top: 10px;
+  position: fixed;
+  height: calc(90vh);
+  right: 10px;
+  width: calc(49% - 20px);
+  background: #fff;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.22);
+  border-radius: 0.8rem;
+  text-align: center;
+}
+
+#info {
+  font-family: monoidregular;
+  width: 60%;
+  padding: 1rem;
+  position: absolute;
+  top: 50px;
+  left: 20%;
+  background: #fff;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.22);
+  height: 75%;
+  border-radius: 0.8rem;  
+  font-size: 14px;
+}
+
+#info > div {
+  width: 90%;
+  margin-left: 5%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+a {
+  color: darkgreen;
+}
+
+li {
+  line-height:2rem;
+}
+
+.larger {
+  font-size: 120%;
+}
+
+#close {
+  position: relative;
+  float: right;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}

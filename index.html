@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+
+<head>
+    <link rel="stylesheet" href="./webfonts/monoid.css" />
+    <link rel="stylesheet" href="./webfonts/italianno.css" />
+
+    <link rel="stylesheet" href="./menu.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu+Mono" />
+    <link rel="stylesheet" href="lib/codemirror.css" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="lib/show-hint.css" />
+    <script src="lib/d3.v5.min.js"></script>
+    <script src="lib/wasm.min.js" type="javascript/worker"></script>
+    <script src="lib/d3-graphviz.js"></script>
+    <script src="lib/codemirror.js"></script>
+    <script src="lib/show-hint.js"></script>
+    <script src="lib/anyword-hint.js"></script>
+    <script src="src/fa.js"></script>
+    <script src="src/aws.js"></script>
+    <script src="src/dot.js"></script>
+    <script src="src/dotAttributes.js"></script>
+    <script src="src/properties.js"></script>
+    <script src="src/dot-hint.js"></script>
+    <script src="lib/FileSaver.js"></script>
+    <title>Graphviz (live) editor</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+        <label class="menu-open-button" for="menu-open">
+            <span class="hamburger hamburger-1"></span>
+            <span class="hamburger hamburger-2"></span>
+            <span class="hamburger hamburger-3"></span>
+        </label>
+
+        <span class="menu-item"> <i class="fa fa-file-archive" id="zippy"></i> </span>
+        <span href="" class="menu-item"> <i class="fa fa-file-image" id="single-svg"></i> </span>
+        <span href="" class="menu-item"> <i class="fa fa-info-circle" id="info-menu"></i> </span>
+    </nav>
+
+    <div id="container">
+        <div id="editor"></div>
+    </div>
+    <div id="graph"></div>
+    <script type="module" src="./src/gve.js"></script>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="shadowed-goo">
+                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                    result="goo" />
+                <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+                <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2"
+                    result="shadow" />
+                <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+                <feBlend in2="shadow" in="goo" result="goo" />
+                <feBlend in2="goo" in="SourceGraphic" result="mix" />
+            </filter>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+                    result="goo" />
+                <feBlend in2="goo" in="SourceGraphic" result="mix" />
+            </filter>
+        </defs>
+    </svg>
+    <div id="info" class="hidden">
+        <i class="fa fa-times-circle" id="close"></i>
+        <div>
+            <h1>Help</h1>
+            <p>This is a live editor for <a href="https://graphviz.org">Graphviz graphs</a>, based on <a
+                    href="https://github.com/magjac/d3-graphviz">d3-graphviz</a> (which is based on <a
+                    href="https://github.com/hpcc-systems/hpcc-js-wasm">hpcc-js-wasm's port of Graphviz</a> to WASM.</p>
+            <p>
+                <li><i class="fa fa-file-image larger"></i> Use this menu button to download the canvas as an SVG, with
+                    any icons you use (and the Monoid font) embedded in the file</li>
+                <li><i class="fa fa-file-archive larger"></i> Use this menu button to download the whole "project" as a
+                    ZIP archive. That is, any image assets you use, a DOT file you can compile locally and the image
+                    exported in SVG format </li>
+                <li>The editor offers some primitive autocomplete for Graphviz <a
+                        href="https://graphviz.org/doc/info/attrs.html">attributes</a>, <a
+                        href="https://graphviz.org/doc/info/shapes.html">node shapes</a> and some other properties, as
+                    well as for the AWS diagram assets and and FontAwesome glyphs.</li>
+                <li>You can't add your own images (yet? If it's ever possible, it won't be easy), but can use <a
+                        href="https://graphviz.org/doc/info/shapes.html#html">HTML style labels</a> and add remote
+                    images, but those can't be exported as SVG, but only as DOT file (with the archive option).</li>
+                <li>Before exporting make sure all the diagram is visible, it will make things easier. Once exported you
+                    can tweak it with any SVG editor (like <a href="https://affinity.serif.com/en-gb/designer/">Affinity
+                        Designer</a> or <a href="https://inkscape.org">Inkscape</a>)</li>
+                <li>Sometimes the live preview will ignore some style or shape attribute (like changing from solid to
+                    dotted, has happened several times). The best way to get out of it is to copy the DOT code, refresh
+                    the page and pasting it again.</li>
+            </p>
+            <hr />
+            <p>This project would not be possible without other available assets or code:</p>
+            <ul>
+                <li>AWS's <a href="https://aws.amazon.com/architecture/icons/">diagram assets</a></li>
+                <li><a href="http://fontawesome.com">FontAwesome</a></li>
+                <li><a href="http://lbebber.github.io/public/">Lucas Bebbler's</a> <a
+                        href="https://codepen.io/lbebber/pen/LELBEo">Gooey Menu</a></li>
+                <li>The <a href="http://codemirror.net">CodeMirror</a> editor</li>
+                <li>The <a href="https://github.com/codemirror/CodeMirror/issues/3638">work done</a> by <a
+                        href="https://github.com/AlgyTaylor">AlgyTaylor</a> for DOT syntax for CodeMirror</li>
+                <li><a href="https://github.com/Touffy/client-zip">client-zip</li>
+                <li><a href="https://github.com/eligrey/FileSaver.js">file-saver</li>
+            </ul>
+        </div>
+    </div>
+</body>

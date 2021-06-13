@@ -1,0 +1,4009 @@
+const fontawesome = [{
+	"text": "./i/fa/solid/ad.png\"",
+	"displayText": "ad|fa-solid",
+	"filename": "ad"
+}, {
+	"text": "./i/fa/solid/address-book.png\"",
+	"displayText": "address-book|fa-solid",
+	"filename": "address-book"
+}, {
+	"text": "./i/fa/solid/address-card.png\"",
+	"displayText": "address-card|fa-solid",
+	"filename": "address-card"
+}, {
+	"text": "./i/fa/solid/adjust.png\"",
+	"displayText": "adjust|fa-solid",
+	"filename": "adjust"
+}, {
+	"text": "./i/fa/solid/air-freshener.png\"",
+	"displayText": "air-freshener|fa-solid",
+	"filename": "air-freshener"
+}, {
+	"text": "./i/fa/solid/align-center.png\"",
+	"displayText": "align-center|fa-solid",
+	"filename": "align-center"
+}, {
+	"text": "./i/fa/solid/align-justify.png\"",
+	"displayText": "align-justify|fa-solid",
+	"filename": "align-justify"
+}, {
+	"text": "./i/fa/solid/align-left.png\"",
+	"displayText": "align-left|fa-solid",
+	"filename": "align-left"
+}, {
+	"text": "./i/fa/solid/align-right.png\"",
+	"displayText": "align-right|fa-solid",
+	"filename": "align-right"
+}, {
+	"text": "./i/fa/solid/allergies.png\"",
+	"displayText": "allergies|fa-solid",
+	"filename": "allergies"
+}, {
+	"text": "./i/fa/solid/ambulance.png\"",
+	"displayText": "ambulance|fa-solid",
+	"filename": "ambulance"
+}, {
+	"text": "./i/fa/solid/american-sign-language-interpreting.png\"",
+	"displayText": "american-sign-language-interpreting|fa-solid",
+	"filename": "american-sign-language-interpreting"
+}, {
+	"text": "./i/fa/solid/anchor.png\"",
+	"displayText": "anchor|fa-solid",
+	"filename": "anchor"
+}, {
+	"text": "./i/fa/solid/angle-double-down.png\"",
+	"displayText": "angle-double-down|fa-solid",
+	"filename": "angle-double-down"
+}, {
+	"text": "./i/fa/solid/angle-double-left.png\"",
+	"displayText": "angle-double-left|fa-solid",
+	"filename": "angle-double-left"
+}, {
+	"text": "./i/fa/solid/angle-double-right.png\"",
+	"displayText": "angle-double-right|fa-solid",
+	"filename": "angle-double-right"
+}, {
+	"text": "./i/fa/solid/angle-double-up.png\"",
+	"displayText": "angle-double-up|fa-solid",
+	"filename": "angle-double-up"
+}, {
+	"text": "./i/fa/solid/angle-down.png\"",
+	"displayText": "angle-down|fa-solid",
+	"filename": "angle-down"
+}, {
+	"text": "./i/fa/solid/angle-left.png\"",
+	"displayText": "angle-left|fa-solid",
+	"filename": "angle-left"
+}, {
+	"text": "./i/fa/solid/angle-right.png\"",
+	"displayText": "angle-right|fa-solid",
+	"filename": "angle-right"
+}, {
+	"text": "./i/fa/solid/angle-up.png\"",
+	"displayText": "angle-up|fa-solid",
+	"filename": "angle-up"
+}, {
+	"text": "./i/fa/solid/angry.png\"",
+	"displayText": "angry|fa-solid",
+	"filename": "angry"
+}, {
+	"text": "./i/fa/solid/ankh.png\"",
+	"displayText": "ankh|fa-solid",
+	"filename": "ankh"
+}, {
+	"text": "./i/fa/solid/apple-alt.png\"",
+	"displayText": "apple-alt|fa-solid",
+	"filename": "apple-alt"
+}, {
+	"text": "./i/fa/solid/archive.png\"",
+	"displayText": "archive|fa-solid",
+	"filename": "archive"
+}, {
+	"text": "./i/fa/solid/archway.png\"",
+	"displayText": "archway|fa-solid",
+	"filename": "archway"
+}, {
+	"text": "./i/fa/solid/arrow-alt-circle-down.png\"",
+	"displayText": "arrow-alt-circle-down|fa-solid",
+	"filename": "arrow-alt-circle-down"
+}, {
+	"text": "./i/fa/solid/arrow-alt-circle-left.png\"",
+	"displayText": "arrow-alt-circle-left|fa-solid",
+	"filename": "arrow-alt-circle-left"
+}, {
+	"text": "./i/fa/solid/arrow-alt-circle-right.png\"",
+	"displayText": "arrow-alt-circle-right|fa-solid",
+	"filename": "arrow-alt-circle-right"
+}, {
+	"text": "./i/fa/solid/arrow-alt-circle-up.png\"",
+	"displayText": "arrow-alt-circle-up|fa-solid",
+	"filename": "arrow-alt-circle-up"
+}, {
+	"text": "./i/fa/solid/arrow-circle-down.png\"",
+	"displayText": "arrow-circle-down|fa-solid",
+	"filename": "arrow-circle-down"
+}, {
+	"text": "./i/fa/solid/arrow-circle-left.png\"",
+	"displayText": "arrow-circle-left|fa-solid",
+	"filename": "arrow-circle-left"
+}, {
+	"text": "./i/fa/solid/arrow-circle-right.png\"",
+	"displayText": "arrow-circle-right|fa-solid",
+	"filename": "arrow-circle-right"
+}, {
+	"text": "./i/fa/solid/arrow-circle-up.png\"",
+	"displayText": "arrow-circle-up|fa-solid",
+	"filename": "arrow-circle-up"
+}, {
+	"text": "./i/fa/solid/arrow-down.png\"",
+	"displayText": "arrow-down|fa-solid",
+	"filename": "arrow-down"
+}, {
+	"text": "./i/fa/solid/arrow-left.png\"",
+	"displayText": "arrow-left|fa-solid",
+	"filename": "arrow-left"
+}, {
+	"text": "./i/fa/solid/arrow-right.png\"",
+	"displayText": "arrow-right|fa-solid",
+	"filename": "arrow-right"
+}, {
+	"text": "./i/fa/solid/arrow-up.png\"",
+	"displayText": "arrow-up|fa-solid",
+	"filename": "arrow-up"
+}, {
+	"text": "./i/fa/solid/arrows-alt-h.png\"",
+	"displayText": "arrows-alt-h|fa-solid",
+	"filename": "arrows-alt-h"
+}, {
+	"text": "./i/fa/solid/arrows-alt-v.png\"",
+	"displayText": "arrows-alt-v|fa-solid",
+	"filename": "arrows-alt-v"
+}, {
+	"text": "./i/fa/solid/arrows-alt.png\"",
+	"displayText": "arrows-alt|fa-solid",
+	"filename": "arrows-alt"
+}, {
+	"text": "./i/fa/solid/assistive-listening-systems.png\"",
+	"displayText": "assistive-listening-systems|fa-solid",
+	"filename": "assistive-listening-systems"
+}, {
+	"text": "./i/fa/solid/asterisk.png\"",
+	"displayText": "asterisk|fa-solid",
+	"filename": "asterisk"
+}, {
+	"text": "./i/fa/solid/at.png\"",
+	"displayText": "at|fa-solid",
+	"filename": "at"
+}, {
+	"text": "./i/fa/solid/atlas.png\"",
+	"displayText": "atlas|fa-solid",
+	"filename": "atlas"
+}, {
+	"text": "./i/fa/solid/atom.png\"",
+	"displayText": "atom|fa-solid",
+	"filename": "atom"
+}, {
+	"text": "./i/fa/solid/audio-description.png\"",
+	"displayText": "audio-description|fa-solid",
+	"filename": "audio-description"
+}, {
+	"text": "./i/fa/solid/award.png\"",
+	"displayText": "award|fa-solid",
+	"filename": "award"
+}, {
+	"text": "./i/fa/solid/baby-carriage.png\"",
+	"displayText": "baby-carriage|fa-solid",
+	"filename": "baby-carriage"
+}, {
+	"text": "./i/fa/solid/baby.png\"",
+	"displayText": "baby|fa-solid",
+	"filename": "baby"
+}, {
+	"text": "./i/fa/solid/backspace.png\"",
+	"displayText": "backspace|fa-solid",
+	"filename": "backspace"
+}, {
+	"text": "./i/fa/solid/backward.png\"",
+	"displayText": "backward|fa-solid",
+	"filename": "backward"
+}, {
+	"text": "./i/fa/solid/bacon.png\"",
+	"displayText": "bacon|fa-solid",
+	"filename": "bacon"
+}, {
+	"text": "./i/fa/solid/bacteria.png\"",
+	"displayText": "bacteria|fa-solid",
+	"filename": "bacteria"
+}, {
+	"text": "./i/fa/solid/bacterium.png\"",
+	"displayText": "bacterium|fa-solid",
+	"filename": "bacterium"
+}, {
+	"text": "./i/fa/solid/bahai.png\"",
+	"displayText": "bahai|fa-solid",
+	"filename": "bahai"
+}, {
+	"text": "./i/fa/solid/balance-scale-left.png\"",
+	"displayText": "balance-scale-left|fa-solid",
+	"filename": "balance-scale-left"
+}, {
+	"text": "./i/fa/solid/balance-scale-right.png\"",
+	"displayText": "balance-scale-right|fa-solid",
+	"filename": "balance-scale-right"
+}, {
+	"text": "./i/fa/solid/balance-scale.png\"",
+	"displayText": "balance-scale|fa-solid",
+	"filename": "balance-scale"
+}, {
+	"text": "./i/fa/solid/ban.png\"",
+	"displayText": "ban|fa-solid",
+	"filename": "ban"
+}, {
+	"text": "./i/fa/solid/band-aid.png\"",
+	"displayText": "band-aid|fa-solid",
+	"filename": "band-aid"
+}, {
+	"text": "./i/fa/solid/barcode.png\"",
+	"displayText": "barcode|fa-solid",
+	"filename": "barcode"
+}, {
+	"text": "./i/fa/solid/bars.png\"",
+	"displayText": "bars|fa-solid",
+	"filename": "bars"
+}, {
+	"text": "./i/fa/solid/baseball-ball.png\"",
+	"displayText": "baseball-ball|fa-solid",
+	"filename": "baseball-ball"
+}, {
+	"text": "./i/fa/solid/basketball-ball.png\"",
+	"displayText": "basketball-ball|fa-solid",
+	"filename": "basketball-ball"
+}, {
+	"text": "./i/fa/solid/bath.png\"",
+	"displayText": "bath|fa-solid",
+	"filename": "bath"
+}, {
+	"text": "./i/fa/solid/battery-empty.png\"",
+	"displayText": "battery-empty|fa-solid",
+	"filename": "battery-empty"
+}, {
+	"text": "./i/fa/solid/battery-full.png\"",
+	"displayText": "battery-full|fa-solid",
+	"filename": "battery-full"
+}, {
+	"text": "./i/fa/solid/battery-half.png\"",
+	"displayText": "battery-half|fa-solid",
+	"filename": "battery-half"
+}, {
+	"text": "./i/fa/solid/battery-quarter.png\"",
+	"displayText": "battery-quarter|fa-solid",
+	"filename": "battery-quarter"
+}, {
+	"text": "./i/fa/solid/battery-three-quarters.png\"",
+	"displayText": "battery-three-quarters|fa-solid",
+	"filename": "battery-three-quarters"
+}, {
+	"text": "./i/fa/solid/bed.png\"",
+	"displayText": "bed|fa-solid",
+	"filename": "bed"
+}, {
+	"text": "./i/fa/solid/beer.png\"",
+	"displayText": "beer|fa-solid",
+	"filename": "beer"
+}, {
+	"text": "./i/fa/solid/bell-slash.png\"",
+	"displayText": "bell-slash|fa-solid",
+	"filename": "bell-slash"
+}, {
+	"text": "./i/fa/solid/bell.png\"",
+	"displayText": "bell|fa-solid",
+	"filename": "bell"
+}, {
+	"text": "./i/fa/solid/bezier-curve.png\"",
+	"displayText": "bezier-curve|fa-solid",
+	"filename": "bezier-curve"
+}, {
+	"text": "./i/fa/solid/bible.png\"",
+	"displayText": "bible|fa-solid",
+	"filename": "bible"
+}, {
+	"text": "./i/fa/solid/bicycle.png\"",
+	"displayText": "bicycle|fa-solid",
+	"filename": "bicycle"
+}, {
+	"text": "./i/fa/solid/biking.png\"",
+	"displayText": "biking|fa-solid",
+	"filename": "biking"
+}, {
+	"text": "./i/fa/solid/binoculars.png\"",
+	"displayText": "binoculars|fa-solid",
+	"filename": "binoculars"
+}, {
+	"text": "./i/fa/solid/biohazard.png\"",
+	"displayText": "biohazard|fa-solid",
+	"filename": "biohazard"
+}, {
+	"text": "./i/fa/solid/birthday-cake.png\"",
+	"displayText": "birthday-cake|fa-solid",
+	"filename": "birthday-cake"
+}, {
+	"text": "./i/fa/solid/blender-phone.png\"",
+	"displayText": "blender-phone|fa-solid",
+	"filename": "blender-phone"
+}, {
+	"text": "./i/fa/solid/blender.png\"",
+	"displayText": "blender|fa-solid",
+	"filename": "blender"
+}, {
+	"text": "./i/fa/solid/blind.png\"",
+	"displayText": "blind|fa-solid",
+	"filename": "blind"
+}, {
+	"text": "./i/fa/solid/blog.png\"",
+	"displayText": "blog|fa-solid",
+	"filename": "blog"
+}, {
+	"text": "./i/fa/solid/bold.png\"",
+	"displayText": "bold|fa-solid",
+	"filename": "bold"
+}, {
+	"text": "./i/fa/solid/bolt.png\"",
+	"displayText": "bolt|fa-solid",
+	"filename": "bolt"
+}, {
+	"text": "./i/fa/solid/bomb.png\"",
+	"displayText": "bomb|fa-solid",
+	"filename": "bomb"
+}, {
+	"text": "./i/fa/solid/bone.png\"",
+	"displayText": "bone|fa-solid",
+	"filename": "bone"
+}, {
+	"text": "./i/fa/solid/bong.png\"",
+	"displayText": "bong|fa-solid",
+	"filename": "bong"
+}, {
+	"text": "./i/fa/solid/book-dead.png\"",
+	"displayText": "book-dead|fa-solid",
+	"filename": "book-dead"
+}, {
+	"text": "./i/fa/solid/book-medical.png\"",
+	"displayText": "book-medical|fa-solid",
+	"filename": "book-medical"
+}, {
+	"text": "./i/fa/solid/book-open.png\"",
+	"displayText": "book-open|fa-solid",
+	"filename": "book-open"
+}, {
+	"text": "./i/fa/solid/book-reader.png\"",
+	"displayText": "book-reader|fa-solid",
+	"filename": "book-reader"
+}, {
+	"text": "./i/fa/solid/book.png\"",
+	"displayText": "book|fa-solid",
+	"filename": "book"
+}, {
+	"text": "./i/fa/solid/bookmark.png\"",
+	"displayText": "bookmark|fa-solid",
+	"filename": "bookmark"
+}, {
+	"text": "./i/fa/solid/border-all.png\"",
+	"displayText": "border-all|fa-solid",
+	"filename": "border-all"
+}, {
+	"text": "./i/fa/solid/border-none.png\"",
+	"displayText": "border-none|fa-solid",
+	"filename": "border-none"
+}, {
+	"text": "./i/fa/solid/border-style.png\"",
+	"displayText": "border-style|fa-solid",
+	"filename": "border-style"
+}, {
+	"text": "./i/fa/solid/bowling-ball.png\"",
+	"displayText": "bowling-ball|fa-solid",
+	"filename": "bowling-ball"
+}, {
+	"text": "./i/fa/solid/box-open.png\"",
+	"displayText": "box-open|fa-solid",
+	"filename": "box-open"
+}, {
+	"text": "./i/fa/solid/box-tissue.png\"",
+	"displayText": "box-tissue|fa-solid",
+	"filename": "box-tissue"
+}, {
+	"text": "./i/fa/solid/box.png\"",
+	"displayText": "box|fa-solid",
+	"filename": "box"
+}, {
+	"text": "./i/fa/solid/boxes.png\"",
+	"displayText": "boxes|fa-solid",
+	"filename": "boxes"
+}, {
+	"text": "./i/fa/solid/braille.png\"",
+	"displayText": "braille|fa-solid",
+	"filename": "braille"
+}, {
+	"text": "./i/fa/solid/brain.png\"",
+	"displayText": "brain|fa-solid",
+	"filename": "brain"
+}, {
+	"text": "./i/fa/solid/bread-slice.png\"",
+	"displayText": "bread-slice|fa-solid",
+	"filename": "bread-slice"
+}, {
+	"text": "./i/fa/solid/briefcase-medical.png\"",
+	"displayText": "briefcase-medical|fa-solid",
+	"filename": "briefcase-medical"
+}, {
+	"text": "./i/fa/solid/briefcase.png\"",
+	"displayText": "briefcase|fa-solid",
+	"filename": "briefcase"
+}, {
+	"text": "./i/fa/solid/broadcast-tower.png\"",
+	"displayText": "broadcast-tower|fa-solid",
+	"filename": "broadcast-tower"
+}, {
+	"text": "./i/fa/solid/broom.png\"",
+	"displayText": "broom|fa-solid",
+	"filename": "broom"
+}, {
+	"text": "./i/fa/solid/brush.png\"",
+	"displayText": "brush|fa-solid",
+	"filename": "brush"
+}, {
+	"text": "./i/fa/solid/bug.png\"",
+	"displayText": "bug|fa-solid",
+	"filename": "bug"
+}, {
+	"text": "./i/fa/solid/building.png\"",
+	"displayText": "building|fa-solid",
+	"filename": "building"
+}, {
+	"text": "./i/fa/solid/bullhorn.png\"",
+	"displayText": "bullhorn|fa-solid",
+	"filename": "bullhorn"
+}, {
+	"text": "./i/fa/solid/bullseye.png\"",
+	"displayText": "bullseye|fa-solid",
+	"filename": "bullseye"
+}, {
+	"text": "./i/fa/solid/burn.png\"",
+	"displayText": "burn|fa-solid",
+	"filename": "burn"
+}, {
+	"text": "./i/fa/solid/bus-alt.png\"",
+	"displayText": "bus-alt|fa-solid",
+	"filename": "bus-alt"
+}, {
+	"text": "./i/fa/solid/bus.png\"",
+	"displayText": "bus|fa-solid",
+	"filename": "bus"
+}, {
+	"text": "./i/fa/solid/business-time.png\"",
+	"displayText": "business-time|fa-solid",
+	"filename": "business-time"
+}, {
+	"text": "./i/fa/solid/calculator.png\"",
+	"displayText": "calculator|fa-solid",
+	"filename": "calculator"
+}, {
+	"text": "./i/fa/solid/calendar-alt.png\"",
+	"displayText": "calendar-alt|fa-solid",
+	"filename": "calendar-alt"
+}, {
+	"text": "./i/fa/solid/calendar-check.png\"",
+	"displayText": "calendar-check|fa-solid",
+	"filename": "calendar-check"
+}, {
+	"text": "./i/fa/solid/calendar-day.png\"",
+	"displayText": "calendar-day|fa-solid",
+	"filename": "calendar-day"
+}, {
+	"text": "./i/fa/solid/calendar-minus.png\"",
+	"displayText": "calendar-minus|fa-solid",
+	"filename": "calendar-minus"
+}, {
+	"text": "./i/fa/solid/calendar-plus.png\"",
+	"displayText": "calendar-plus|fa-solid",
+	"filename": "calendar-plus"
+}, {
+	"text": "./i/fa/solid/calendar-times.png\"",
+	"displayText": "calendar-times|fa-solid",
+	"filename": "calendar-times"
+}, {
+	"text": "./i/fa/solid/calendar-week.png\"",
+	"displayText": "calendar-week|fa-solid",
+	"filename": "calendar-week"
+}, {
+	"text": "./i/fa/solid/calendar.png\"",
+	"displayText": "calendar|fa-solid",
+	"filename": "calendar"
+}, {
+	"text": "./i/fa/solid/camera-retro.png\"",
+	"displayText": "camera-retro|fa-solid",
+	"filename": "camera-retro"
+}, {
+	"text": "./i/fa/solid/camera.png\"",
+	"displayText": "camera|fa-solid",
+	"filename": "camera"
+}, {
+	"text": "./i/fa/solid/campground.png\"",
+	"displayText": "campground|fa-solid",
+	"filename": "campground"
+}, {
+	"text": "./i/fa/solid/candy-cane.png\"",
+	"displayText": "candy-cane|fa-solid",
+	"filename": "candy-cane"
+}, {
+	"text": "./i/fa/solid/cannabis.png\"",
+	"displayText": "cannabis|fa-solid",
+	"filename": "cannabis"
+}, {
+	"text": "./i/fa/solid/capsules.png\"",
+	"displayText": "capsules|fa-solid",
+	"filename": "capsules"
+}, {
+	"text": "./i/fa/solid/car-alt.png\"",
+	"displayText": "car-alt|fa-solid",
+	"filename": "car-alt"
+}, {
+	"text": "./i/fa/solid/car-battery.png\"",
+	"displayText": "car-battery|fa-solid",
+	"filename": "car-battery"
+}, {
+	"text": "./i/fa/solid/car-crash.png\"",
+	"displayText": "car-crash|fa-solid",
+	"filename": "car-crash"
+}, {
+	"text": "./i/fa/solid/car-side.png\"",
+	"displayText": "car-side|fa-solid",
+	"filename": "car-side"
+}, {
+	"text": "./i/fa/solid/car.png\"",
+	"displayText": "car|fa-solid",
+	"filename": "car"
+}, {
+	"text": "./i/fa/solid/caravan.png\"",
+	"displayText": "caravan|fa-solid",
+	"filename": "caravan"
+}, {
+	"text": "./i/fa/solid/caret-down.png\"",
+	"displayText": "caret-down|fa-solid",
+	"filename": "caret-down"
+}, {
+	"text": "./i/fa/solid/caret-left.png\"",
+	"displayText": "caret-left|fa-solid",
+	"filename": "caret-left"
+}, {
+	"text": "./i/fa/solid/caret-right.png\"",
+	"displayText": "caret-right|fa-solid",
+	"filename": "caret-right"
+}, {
+	"text": "./i/fa/solid/caret-square-down.png\"",
+	"displayText": "caret-square-down|fa-solid",
+	"filename": "caret-square-down"
+}, {
+	"text": "./i/fa/solid/caret-square-left.png\"",
+	"displayText": "caret-square-left|fa-solid",
+	"filename": "caret-square-left"
+}, {
+	"text": "./i/fa/solid/caret-square-right.png\"",
+	"displayText": "caret-square-right|fa-solid",
+	"filename": "caret-square-right"
+}, {
+	"text": "./i/fa/solid/caret-square-up.png\"",
+	"displayText": "caret-square-up|fa-solid",
+	"filename": "caret-square-up"
+}, {
+	"text": "./i/fa/solid/caret-up.png\"",
+	"displayText": "caret-up|fa-solid",
+	"filename": "caret-up"
+}, {
+	"text": "./i/fa/solid/carrot.png\"",
+	"displayText": "carrot|fa-solid",
+	"filename": "carrot"
+}, {
+	"text": "./i/fa/solid/cart-arrow-down.png\"",
+	"displayText": "cart-arrow-down|fa-solid",
+	"filename": "cart-arrow-down"
+}, {
+	"text": "./i/fa/solid/cart-plus.png\"",
+	"displayText": "cart-plus|fa-solid",
+	"filename": "cart-plus"
+}, {
+	"text": "./i/fa/solid/cash-register.png\"",
+	"displayText": "cash-register|fa-solid",
+	"filename": "cash-register"
+}, {
+	"text": "./i/fa/solid/cat.png\"",
+	"displayText": "cat|fa-solid",
+	"filename": "cat"
+}, {
+	"text": "./i/fa/solid/certificate.png\"",
+	"displayText": "certificate|fa-solid",
+	"filename": "certificate"
+}, {
+	"text": "./i/fa/solid/chair.png\"",
+	"displayText": "chair|fa-solid",
+	"filename": "chair"
+}, {
+	"text": "./i/fa/solid/chalkboard-teacher.png\"",
+	"displayText": "chalkboard-teacher|fa-solid",
+	"filename": "chalkboard-teacher"
+}, {
+	"text": "./i/fa/solid/chalkboard.png\"",
+	"displayText": "chalkboard|fa-solid",
+	"filename": "chalkboard"
+}, {
+	"text": "./i/fa/solid/charging-station.png\"",
+	"displayText": "charging-station|fa-solid",
+	"filename": "charging-station"
+}, {
+	"text": "./i/fa/solid/chart-area.png\"",
+	"displayText": "chart-area|fa-solid",
+	"filename": "chart-area"
+}, {
+	"text": "./i/fa/solid/chart-bar.png\"",
+	"displayText": "chart-bar|fa-solid",
+	"filename": "chart-bar"
+}, {
+	"text": "./i/fa/solid/chart-line.png\"",
+	"displayText": "chart-line|fa-solid",
+	"filename": "chart-line"
+}, {
+	"text": "./i/fa/solid/chart-pie.png\"",
+	"displayText": "chart-pie|fa-solid",
+	"filename": "chart-pie"
+}, {
+	"text": "./i/fa/solid/check-circle.png\"",
+	"displayText": "check-circle|fa-solid",
+	"filename": "check-circle"
+}, {
+	"text": "./i/fa/solid/check-double.png\"",
+	"displayText": "check-double|fa-solid",
+	"filename": "check-double"
+}, {
+	"text": "./i/fa/solid/check-square.png\"",
+	"displayText": "check-square|fa-solid",
+	"filename": "check-square"
+}, {
+	"text": "./i/fa/solid/check.png\"",
+	"displayText": "check|fa-solid",
+	"filename": "check"
+}, {
+	"text": "./i/fa/solid/cheese.png\"",
+	"displayText": "cheese|fa-solid",
+	"filename": "cheese"
+}, {
+	"text": "./i/fa/solid/chess-bishop.png\"",
+	"displayText": "chess-bishop|fa-solid",
+	"filename": "chess-bishop"
+}, {
+	"text": "./i/fa/solid/chess-board.png\"",
+	"displayText": "chess-board|fa-solid",
+	"filename": "chess-board"
+}, {
+	"text": "./i/fa/solid/chess-king.png\"",
+	"displayText": "chess-king|fa-solid",
+	"filename": "chess-king"
+}, {
+	"text": "./i/fa/solid/chess-knight.png\"",
+	"displayText": "chess-knight|fa-solid",
+	"filename": "chess-knight"
+}, {
+	"text": "./i/fa/solid/chess-pawn.png\"",
+	"displayText": "chess-pawn|fa-solid",
+	"filename": "chess-pawn"
+}, {
+	"text": "./i/fa/solid/chess-queen.png\"",
+	"displayText": "chess-queen|fa-solid",
+	"filename": "chess-queen"
+}, {
+	"text": "./i/fa/solid/chess-rook.png\"",
+	"displayText": "chess-rook|fa-solid",
+	"filename": "chess-rook"
+}, {
+	"text": "./i/fa/solid/chess.png\"",
+	"displayText": "chess|fa-solid",
+	"filename": "chess"
+}, {
+	"text": "./i/fa/solid/chevron-circle-down.png\"",
+	"displayText": "chevron-circle-down|fa-solid",
+	"filename": "chevron-circle-down"
+}, {
+	"text": "./i/fa/solid/chevron-circle-left.png\"",
+	"displayText": "chevron-circle-left|fa-solid",
+	"filename": "chevron-circle-left"
+}, {
+	"text": "./i/fa/solid/chevron-circle-right.png\"",
+	"displayText": "chevron-circle-right|fa-solid",
+	"filename": "chevron-circle-right"
+}, {
+	"text": "./i/fa/solid/chevron-circle-up.png\"",
+	"displayText": "chevron-circle-up|fa-solid",
+	"filename": "chevron-circle-up"
+}, {
+	"text": "./i/fa/solid/chevron-down.png\"",
+	"displayText": "chevron-down|fa-solid",
+	"filename": "chevron-down"
+}, {
+	"text": "./i/fa/solid/chevron-left.png\"",
+	"displayText": "chevron-left|fa-solid",
+	"filename": "chevron-left"
+}, {
+	"text": "./i/fa/solid/chevron-right.png\"",
+	"displayText": "chevron-right|fa-solid",
+	"filename": "chevron-right"
+}, {
+	"text": "./i/fa/solid/chevron-up.png\"",
+	"displayText": "chevron-up|fa-solid",
+	"filename": "chevron-up"
+}, {
+	"text": "./i/fa/solid/child.png\"",
+	"displayText": "child|fa-solid",
+	"filename": "child"
+}, {
+	"text": "./i/fa/solid/church.png\"",
+	"displayText": "church|fa-solid",
+	"filename": "church"
+}, {
+	"text": "./i/fa/solid/circle-notch.png\"",
+	"displayText": "circle-notch|fa-solid",
+	"filename": "circle-notch"
+}, {
+	"text": "./i/fa/solid/circle.png\"",
+	"displayText": "circle|fa-solid",
+	"filename": "circle"
+}, {
+	"text": "./i/fa/solid/city.png\"",
+	"displayText": "city|fa-solid",
+	"filename": "city"
+}, {
+	"text": "./i/fa/solid/clinic-medical.png\"",
+	"displayText": "clinic-medical|fa-solid",
+	"filename": "clinic-medical"
+}, {
+	"text": "./i/fa/solid/clipboard-check.png\"",
+	"displayText": "clipboard-check|fa-solid",
+	"filename": "clipboard-check"
+}, {
+	"text": "./i/fa/solid/clipboard-list.png\"",
+	"displayText": "clipboard-list|fa-solid",
+	"filename": "clipboard-list"
+}, {
+	"text": "./i/fa/solid/clipboard.png\"",
+	"displayText": "clipboard|fa-solid",
+	"filename": "clipboard"
+}, {
+	"text": "./i/fa/solid/clock.png\"",
+	"displayText": "clock|fa-solid",
+	"filename": "clock"
+}, {
+	"text": "./i/fa/solid/clone.png\"",
+	"displayText": "clone|fa-solid",
+	"filename": "clone"
+}, {
+	"text": "./i/fa/solid/closed-captioning.png\"",
+	"displayText": "closed-captioning|fa-solid",
+	"filename": "closed-captioning"
+}, {
+	"text": "./i/fa/solid/cloud-download-alt.png\"",
+	"displayText": "cloud-download-alt|fa-solid",
+	"filename": "cloud-download-alt"
+}, {
+	"text": "./i/fa/solid/cloud-meatball.png\"",
+	"displayText": "cloud-meatball|fa-solid",
+	"filename": "cloud-meatball"
+}, {
+	"text": "./i/fa/solid/cloud-moon-rain.png\"",
+	"displayText": "cloud-moon-rain|fa-solid",
+	"filename": "cloud-moon-rain"
+}, {
+	"text": "./i/fa/solid/cloud-moon.png\"",
+	"displayText": "cloud-moon|fa-solid",
+	"filename": "cloud-moon"
+}, {
+	"text": "./i/fa/solid/cloud-rain.png\"",
+	"displayText": "cloud-rain|fa-solid",
+	"filename": "cloud-rain"
+}, {
+	"text": "./i/fa/solid/cloud-showers-heavy.png\"",
+	"displayText": "cloud-showers-heavy|fa-solid",
+	"filename": "cloud-showers-heavy"
+}, {
+	"text": "./i/fa/solid/cloud-sun-rain.png\"",
+	"displayText": "cloud-sun-rain|fa-solid",
+	"filename": "cloud-sun-rain"
+}, {
+	"text": "./i/fa/solid/cloud-sun.png\"",
+	"displayText": "cloud-sun|fa-solid",
+	"filename": "cloud-sun"
+}, {
+	"text": "./i/fa/solid/cloud-upload-alt.png\"",
+	"displayText": "cloud-upload-alt|fa-solid",
+	"filename": "cloud-upload-alt"
+}, {
+	"text": "./i/fa/solid/cloud.png\"",
+	"displayText": "cloud|fa-solid",
+	"filename": "cloud"
+}, {
+	"text": "./i/fa/solid/cocktail.png\"",
+	"displayText": "cocktail|fa-solid",
+	"filename": "cocktail"
+}, {
+	"text": "./i/fa/solid/code-branch.png\"",
+	"displayText": "code-branch|fa-solid",
+	"filename": "code-branch"
+}, {
+	"text": "./i/fa/solid/code.png\"",
+	"displayText": "code|fa-solid",
+	"filename": "code"
+}, {
+	"text": "./i/fa/solid/coffee.png\"",
+	"displayText": "coffee|fa-solid",
+	"filename": "coffee"
+}, {
+	"text": "./i/fa/solid/cog.png\"",
+	"displayText": "cog|fa-solid",
+	"filename": "cog"
+}, {
+	"text": "./i/fa/solid/cogs.png\"",
+	"displayText": "cogs|fa-solid",
+	"filename": "cogs"
+}, {
+	"text": "./i/fa/solid/coins.png\"",
+	"displayText": "coins|fa-solid",
+	"filename": "coins"
+}, {
+	"text": "./i/fa/solid/columns.png\"",
+	"displayText": "columns|fa-solid",
+	"filename": "columns"
+}, {
+	"text": "./i/fa/solid/comment-alt.png\"",
+	"displayText": "comment-alt|fa-solid",
+	"filename": "comment-alt"
+}, {
+	"text": "./i/fa/solid/comment-dollar.png\"",
+	"displayText": "comment-dollar|fa-solid",
+	"filename": "comment-dollar"
+}, {
+	"text": "./i/fa/solid/comment-dots.png\"",
+	"displayText": "comment-dots|fa-solid",
+	"filename": "comment-dots"
+}, {
+	"text": "./i/fa/solid/comment-medical.png\"",
+	"displayText": "comment-medical|fa-solid",
+	"filename": "comment-medical"
+}, {
+	"text": "./i/fa/solid/comment-slash.png\"",
+	"displayText": "comment-slash|fa-solid",
+	"filename": "comment-slash"
+}, {
+	"text": "./i/fa/solid/comment.png\"",
+	"displayText": "comment|fa-solid",
+	"filename": "comment"
+}, {
+	"text": "./i/fa/solid/comments-dollar.png\"",
+	"displayText": "comments-dollar|fa-solid",
+	"filename": "comments-dollar"
+}, {
+	"text": "./i/fa/solid/comments.png\"",
+	"displayText": "comments|fa-solid",
+	"filename": "comments"
+}, {
+	"text": "./i/fa/solid/compact-disc.png\"",
+	"displayText": "compact-disc|fa-solid",
+	"filename": "compact-disc"
+}, {
+	"text": "./i/fa/solid/compass.png\"",
+	"displayText": "compass|fa-solid",
+	"filename": "compass"
+}, {
+	"text": "./i/fa/solid/compress-alt.png\"",
+	"displayText": "compress-alt|fa-solid",
+	"filename": "compress-alt"
+}, {
+	"text": "./i/fa/solid/compress-arrows-alt.png\"",
+	"displayText": "compress-arrows-alt|fa-solid",
+	"filename": "compress-arrows-alt"
+}, {
+	"text": "./i/fa/solid/compress.png\"",
+	"displayText": "compress|fa-solid",
+	"filename": "compress"
+}, {
+	"text": "./i/fa/solid/concierge-bell.png\"",
+	"displayText": "concierge-bell|fa-solid",
+	"filename": "concierge-bell"
+}, {
+	"text": "./i/fa/solid/cookie-bite.png\"",
+	"displayText": "cookie-bite|fa-solid",
+	"filename": "cookie-bite"
+}, {
+	"text": "./i/fa/solid/cookie.png\"",
+	"displayText": "cookie|fa-solid",
+	"filename": "cookie"
+}, {
+	"text": "./i/fa/solid/copy.png\"",
+	"displayText": "copy|fa-solid",
+	"filename": "copy"
+}, {
+	"text": "./i/fa/solid/copyright.png\"",
+	"displayText": "copyright|fa-solid",
+	"filename": "copyright"
+}, {
+	"text": "./i/fa/solid/couch.png\"",
+	"displayText": "couch|fa-solid",
+	"filename": "couch"
+}, {
+	"text": "./i/fa/solid/credit-card.png\"",
+	"displayText": "credit-card|fa-solid",
+	"filename": "credit-card"
+}, {
+	"text": "./i/fa/solid/crop-alt.png\"",
+	"displayText": "crop-alt|fa-solid",
+	"filename": "crop-alt"
+}, {
+	"text": "./i/fa/solid/crop.png\"",
+	"displayText": "crop|fa-solid",
+	"filename": "crop"
+}, {
+	"text": "./i/fa/solid/cross.png\"",
+	"displayText": "cross|fa-solid",
+	"filename": "cross"
+}, {
+	"text": "./i/fa/solid/crosshairs.png\"",
+	"displayText": "crosshairs|fa-solid",
+	"filename": "crosshairs"
+}, {
+	"text": "./i/fa/solid/crow.png\"",
+	"displayText": "crow|fa-solid",
+	"filename": "crow"
+}, {
+	"text": "./i/fa/solid/crown.png\"",
+	"displayText": "crown|fa-solid",
+	"filename": "crown"
+}, {
+	"text": "./i/fa/solid/crutch.png\"",
+	"displayText": "crutch|fa-solid",
+	"filename": "crutch"
+}, {
+	"text": "./i/fa/solid/cube.png\"",
+	"displayText": "cube|fa-solid",
+	"filename": "cube"
+}, {
+	"text": "./i/fa/solid/cubes.png\"",
+	"displayText": "cubes|fa-solid",
+	"filename": "cubes"
+}, {
+	"text": "./i/fa/solid/cut.png\"",
+	"displayText": "cut|fa-solid",
+	"filename": "cut"
+}, {
+	"text": "./i/fa/solid/database.png\"",
+	"displayText": "database|fa-solid",
+	"filename": "database"
+}, {
+	"text": "./i/fa/solid/deaf.png\"",
+	"displayText": "deaf|fa-solid",
+	"filename": "deaf"
+}, {
+	"text": "./i/fa/solid/democrat.png\"",
+	"displayText": "democrat|fa-solid",
+	"filename": "democrat"
+}, {
+	"text": "./i/fa/solid/desktop.png\"",
+	"displayText": "desktop|fa-solid",
+	"filename": "desktop"
+}, {
+	"text": "./i/fa/solid/dharmachakra.png\"",
+	"displayText": "dharmachakra|fa-solid",
+	"filename": "dharmachakra"
+}, {
+	"text": "./i/fa/solid/diagnoses.png\"",
+	"displayText": "diagnoses|fa-solid",
+	"filename": "diagnoses"
+}, {
+	"text": "./i/fa/solid/dice-d20.png\"",
+	"displayText": "dice-d20|fa-solid",
+	"filename": "dice-d20"
+}, {
+	"text": "./i/fa/solid/dice-d6.png\"",
+	"displayText": "dice-d6|fa-solid",
+	"filename": "dice-d6"
+}, {
+	"text": "./i/fa/solid/dice-five.png\"",
+	"displayText": "dice-five|fa-solid",
+	"filename": "dice-five"
+}, {
+	"text": "./i/fa/solid/dice-four.png\"",
+	"displayText": "dice-four|fa-solid",
+	"filename": "dice-four"
+}, {
+	"text": "./i/fa/solid/dice-one.png\"",
+	"displayText": "dice-one|fa-solid",
+	"filename": "dice-one"
+}, {
+	"text": "./i/fa/solid/dice-six.png\"",
+	"displayText": "dice-six|fa-solid",
+	"filename": "dice-six"
+}, {
+	"text": "./i/fa/solid/dice-three.png\"",
+	"displayText": "dice-three|fa-solid",
+	"filename": "dice-three"
+}, {
+	"text": "./i/fa/solid/dice-two.png\"",
+	"displayText": "dice-two|fa-solid",
+	"filename": "dice-two"
+}, {
+	"text": "./i/fa/solid/dice.png\"",
+	"displayText": "dice|fa-solid",
+	"filename": "dice"
+}, {
+	"text": "./i/fa/solid/digital-tachograph.png\"",
+	"displayText": "digital-tachograph|fa-solid",
+	"filename": "digital-tachograph"
+}, {
+	"text": "./i/fa/solid/directions.png\"",
+	"displayText": "directions|fa-solid",
+	"filename": "directions"
+}, {
+	"text": "./i/fa/solid/disease.png\"",
+	"displayText": "disease|fa-solid",
+	"filename": "disease"
+}, {
+	"text": "./i/fa/solid/divide.png\"",
+	"displayText": "divide|fa-solid",
+	"filename": "divide"
+}, {
+	"text": "./i/fa/solid/dizzy.png\"",
+	"displayText": "dizzy|fa-solid",
+	"filename": "dizzy"
+}, {
+	"text": "./i/fa/solid/dna.png\"",
+	"displayText": "dna|fa-solid",
+	"filename": "dna"
+}, {
+	"text": "./i/fa/solid/dog.png\"",
+	"displayText": "dog|fa-solid",
+	"filename": "dog"
+}, {
+	"text": "./i/fa/solid/dollar-sign.png\"",
+	"displayText": "dollar-sign|fa-solid",
+	"filename": "dollar-sign"
+}, {
+	"text": "./i/fa/solid/dolly-flatbed.png\"",
+	"displayText": "dolly-flatbed|fa-solid",
+	"filename": "dolly-flatbed"
+}, {
+	"text": "./i/fa/solid/dolly.png\"",
+	"displayText": "dolly|fa-solid",
+	"filename": "dolly"
+}, {
+	"text": "./i/fa/solid/donate.png\"",
+	"displayText": "donate|fa-solid",
+	"filename": "donate"
+}, {
+	"text": "./i/fa/solid/door-closed.png\"",
+	"displayText": "door-closed|fa-solid",
+	"filename": "door-closed"
+}, {
+	"text": "./i/fa/solid/door-open.png\"",
+	"displayText": "door-open|fa-solid",
+	"filename": "door-open"
+}, {
+	"text": "./i/fa/solid/dot-circle.png\"",
+	"displayText": "dot-circle|fa-solid",
+	"filename": "dot-circle"
+}, {
+	"text": "./i/fa/solid/dove.png\"",
+	"displayText": "dove|fa-solid",
+	"filename": "dove"
+}, {
+	"text": "./i/fa/solid/download.png\"",
+	"displayText": "download|fa-solid",
+	"filename": "download"
+}, {
+	"text": "./i/fa/solid/drafting-compass.png\"",
+	"displayText": "drafting-compass|fa-solid",
+	"filename": "drafting-compass"
+}, {
+	"text": "./i/fa/solid/dragon.png\"",
+	"displayText": "dragon|fa-solid",
+	"filename": "dragon"
+}, {
+	"text": "./i/fa/solid/draw-polygon.png\"",
+	"displayText": "draw-polygon|fa-solid",
+	"filename": "draw-polygon"
+}, {
+	"text": "./i/fa/solid/drum-steelpan.png\"",
+	"displayText": "drum-steelpan|fa-solid",
+	"filename": "drum-steelpan"
+}, {
+	"text": "./i/fa/solid/drum.png\"",
+	"displayText": "drum|fa-solid",
+	"filename": "drum"
+}, {
+	"text": "./i/fa/solid/drumstick-bite.png\"",
+	"displayText": "drumstick-bite|fa-solid",
+	"filename": "drumstick-bite"
+}, {
+	"text": "./i/fa/solid/dumbbell.png\"",
+	"displayText": "dumbbell|fa-solid",
+	"filename": "dumbbell"
+}, {
+	"text": "./i/fa/solid/dumpster-fire.png\"",
+	"displayText": "dumpster-fire|fa-solid",
+	"filename": "dumpster-fire"
+}, {
+	"text": "./i/fa/solid/dumpster.png\"",
+	"displayText": "dumpster|fa-solid",
+	"filename": "dumpster"
+}, {
+	"text": "./i/fa/solid/dungeon.png\"",
+	"displayText": "dungeon|fa-solid",
+	"filename": "dungeon"
+}, {
+	"text": "./i/fa/solid/edit.png\"",
+	"displayText": "edit|fa-solid",
+	"filename": "edit"
+}, {
+	"text": "./i/fa/solid/egg.png\"",
+	"displayText": "egg|fa-solid",
+	"filename": "egg"
+}, {
+	"text": "./i/fa/solid/eject.png\"",
+	"displayText": "eject|fa-solid",
+	"filename": "eject"
+}, {
+	"text": "./i/fa/solid/ellipsis-h.png\"",
+	"displayText": "ellipsis-h|fa-solid",
+	"filename": "ellipsis-h"
+}, {
+	"text": "./i/fa/solid/ellipsis-v.png\"",
+	"displayText": "ellipsis-v|fa-solid",
+	"filename": "ellipsis-v"
+}, {
+	"text": "./i/fa/solid/envelope-open-text.png\"",
+	"displayText": "envelope-open-text|fa-solid",
+	"filename": "envelope-open-text"
+}, {
+	"text": "./i/fa/solid/envelope-open.png\"",
+	"displayText": "envelope-open|fa-solid",
+	"filename": "envelope-open"
+}, {
+	"text": "./i/fa/solid/envelope-square.png\"",
+	"displayText": "envelope-square|fa-solid",
+	"filename": "envelope-square"
+}, {
+	"text": "./i/fa/solid/envelope.png\"",
+	"displayText": "envelope|fa-solid",
+	"filename": "envelope"
+}, {
+	"text": "./i/fa/solid/equals.png\"",
+	"displayText": "equals|fa-solid",
+	"filename": "equals"
+}, {
+	"text": "./i/fa/solid/eraser.png\"",
+	"displayText": "eraser|fa-solid",
+	"filename": "eraser"
+}, {
+	"text": "./i/fa/solid/ethernet.png\"",
+	"displayText": "ethernet|fa-solid",
+	"filename": "ethernet"
+}, {
+	"text": "./i/fa/solid/euro-sign.png\"",
+	"displayText": "euro-sign|fa-solid",
+	"filename": "euro-sign"
+}, {
+	"text": "./i/fa/solid/exchange-alt.png\"",
+	"displayText": "exchange-alt|fa-solid",
+	"filename": "exchange-alt"
+}, {
+	"text": "./i/fa/solid/exclamation-circle.png\"",
+	"displayText": "exclamation-circle|fa-solid",
+	"filename": "exclamation-circle"
+}, {
+	"text": "./i/fa/solid/exclamation-triangle.png\"",
+	"displayText": "exclamation-triangle|fa-solid",
+	"filename": "exclamation-triangle"
+}, {
+	"text": "./i/fa/solid/exclamation.png\"",
+	"displayText": "exclamation|fa-solid",
+	"filename": "exclamation"
+}, {
+	"text": "./i/fa/solid/expand-alt.png\"",
+	"displayText": "expand-alt|fa-solid",
+	"filename": "expand-alt"
+}, {
+	"text": "./i/fa/solid/expand-arrows-alt.png\"",
+	"displayText": "expand-arrows-alt|fa-solid",
+	"filename": "expand-arrows-alt"
+}, {
+	"text": "./i/fa/solid/expand.png\"",
+	"displayText": "expand|fa-solid",
+	"filename": "expand"
+}, {
+	"text": "./i/fa/solid/external-link-alt.png\"",
+	"displayText": "external-link-alt|fa-solid",
+	"filename": "external-link-alt"
+}, {
+	"text": "./i/fa/solid/external-link-square-alt.png\"",
+	"displayText": "external-link-square-alt|fa-solid",
+	"filename": "external-link-square-alt"
+}, {
+	"text": "./i/fa/solid/eye-dropper.png\"",
+	"displayText": "eye-dropper|fa-solid",
+	"filename": "eye-dropper"
+}, {
+	"text": "./i/fa/solid/eye-slash.png\"",
+	"displayText": "eye-slash|fa-solid",
+	"filename": "eye-slash"
+}, {
+	"text": "./i/fa/solid/eye.png\"",
+	"displayText": "eye|fa-solid",
+	"filename": "eye"
+}, {
+	"text": "./i/fa/solid/fan.png\"",
+	"displayText": "fan|fa-solid",
+	"filename": "fan"
+}, {
+	"text": "./i/fa/solid/fast-backward.png\"",
+	"displayText": "fast-backward|fa-solid",
+	"filename": "fast-backward"
+}, {
+	"text": "./i/fa/solid/fast-forward.png\"",
+	"displayText": "fast-forward|fa-solid",
+	"filename": "fast-forward"
+}, {
+	"text": "./i/fa/solid/faucet.png\"",
+	"displayText": "faucet|fa-solid",
+	"filename": "faucet"
+}, {
+	"text": "./i/fa/solid/fax.png\"",
+	"displayText": "fax|fa-solid",
+	"filename": "fax"
+}, {
+	"text": "./i/fa/solid/feather-alt.png\"",
+	"displayText": "feather-alt|fa-solid",
+	"filename": "feather-alt"
+}, {
+	"text": "./i/fa/solid/feather.png\"",
+	"displayText": "feather|fa-solid",
+	"filename": "feather"
+}, {
+	"text": "./i/fa/solid/female.png\"",
+	"displayText": "female|fa-solid",
+	"filename": "female"
+}, {
+	"text": "./i/fa/solid/fighter-jet.png\"",
+	"displayText": "fighter-jet|fa-solid",
+	"filename": "fighter-jet"
+}, {
+	"text": "./i/fa/solid/file-alt.png\"",
+	"displayText": "file-alt|fa-solid",
+	"filename": "file-alt"
+}, {
+	"text": "./i/fa/solid/file-archive.png\"",
+	"displayText": "file-archive|fa-solid",
+	"filename": "file-archive"
+}, {
+	"text": "./i/fa/solid/file-audio.png\"",
+	"displayText": "file-audio|fa-solid",
+	"filename": "file-audio"
+}, {
+	"text": "./i/fa/solid/file-code.png\"",
+	"displayText": "file-code|fa-solid",
+	"filename": "file-code"
+}, {
+	"text": "./i/fa/solid/file-contract.png\"",
+	"displayText": "file-contract|fa-solid",
+	"filename": "file-contract"
+}, {
+	"text": "./i/fa/solid/file-csv.png\"",
+	"displayText": "file-csv|fa-solid",
+	"filename": "file-csv"
+}, {
+	"text": "./i/fa/solid/file-download.png\"",
+	"displayText": "file-download|fa-solid",
+	"filename": "file-download"
+}, {
+	"text": "./i/fa/solid/file-excel.png\"",
+	"displayText": "file-excel|fa-solid",
+	"filename": "file-excel"
+}, {
+	"text": "./i/fa/solid/file-export.png\"",
+	"displayText": "file-export|fa-solid",
+	"filename": "file-export"
+}, {
+	"text": "./i/fa/solid/file-image.png\"",
+	"displayText": "file-image|fa-solid",
+	"filename": "file-image"
+}, {
+	"text": "./i/fa/solid/file-import.png\"",
+	"displayText": "file-import|fa-solid",
+	"filename": "file-import"
+}, {
+	"text": "./i/fa/solid/file-invoice-dollar.png\"",
+	"displayText": "file-invoice-dollar|fa-solid",
+	"filename": "file-invoice-dollar"
+}, {
+	"text": "./i/fa/solid/file-invoice.png\"",
+	"displayText": "file-invoice|fa-solid",
+	"filename": "file-invoice"
+}, {
+	"text": "./i/fa/solid/file-medical-alt.png\"",
+	"displayText": "file-medical-alt|fa-solid",
+	"filename": "file-medical-alt"
+}, {
+	"text": "./i/fa/solid/file-medical.png\"",
+	"displayText": "file-medical|fa-solid",
+	"filename": "file-medical"
+}, {
+	"text": "./i/fa/solid/file-pdf.png\"",
+	"displayText": "file-pdf|fa-solid",
+	"filename": "file-pdf"
+}, {
+	"text": "./i/fa/solid/file-powerpoint.png\"",
+	"displayText": "file-powerpoint|fa-solid",
+	"filename": "file-powerpoint"
+}, {
+	"text": "./i/fa/solid/file-prescription.png\"",
+	"displayText": "file-prescription|fa-solid",
+	"filename": "file-prescription"
+}, {
+	"text": "./i/fa/solid/file-signature.png\"",
+	"displayText": "file-signature|fa-solid",
+	"filename": "file-signature"
+}, {
+	"text": "./i/fa/solid/file-upload.png\"",
+	"displayText": "file-upload|fa-solid",
+	"filename": "file-upload"
+}, {
+	"text": "./i/fa/solid/file-video.png\"",
+	"displayText": "file-video|fa-solid",
+	"filename": "file-video"
+}, {
+	"text": "./i/fa/solid/file-word.png\"",
+	"displayText": "file-word|fa-solid",
+	"filename": "file-word"
+}, {
+	"text": "./i/fa/solid/file.png\"",
+	"displayText": "file|fa-solid",
+	"filename": "file"
+}, {
+	"text": "./i/fa/solid/fill-drip.png\"",
+	"displayText": "fill-drip|fa-solid",
+	"filename": "fill-drip"
+}, {
+	"text": "./i/fa/solid/fill.png\"",
+	"displayText": "fill|fa-solid",
+	"filename": "fill"
+}, {
+	"text": "./i/fa/solid/film.png\"",
+	"displayText": "film|fa-solid",
+	"filename": "film"
+}, {
+	"text": "./i/fa/solid/filter.png\"",
+	"displayText": "filter|fa-solid",
+	"filename": "filter"
+}, {
+	"text": "./i/fa/solid/fingerprint.png\"",
+	"displayText": "fingerprint|fa-solid",
+	"filename": "fingerprint"
+}, {
+	"text": "./i/fa/solid/fire-alt.png\"",
+	"displayText": "fire-alt|fa-solid",
+	"filename": "fire-alt"
+}, {
+	"text": "./i/fa/solid/fire-extinguisher.png\"",
+	"displayText": "fire-extinguisher|fa-solid",
+	"filename": "fire-extinguisher"
+}, {
+	"text": "./i/fa/solid/fire.png\"",
+	"displayText": "fire|fa-solid",
+	"filename": "fire"
+}, {
+	"text": "./i/fa/solid/first-aid.png\"",
+	"displayText": "first-aid|fa-solid",
+	"filename": "first-aid"
+}, {
+	"text": "./i/fa/solid/fish.png\"",
+	"displayText": "fish|fa-solid",
+	"filename": "fish"
+}, {
+	"text": "./i/fa/solid/fist-raised.png\"",
+	"displayText": "fist-raised|fa-solid",
+	"filename": "fist-raised"
+}, {
+	"text": "./i/fa/solid/flag-checkered.png\"",
+	"displayText": "flag-checkered|fa-solid",
+	"filename": "flag-checkered"
+}, {
+	"text": "./i/fa/solid/flag-usa.png\"",
+	"displayText": "flag-usa|fa-solid",
+	"filename": "flag-usa"
+}, {
+	"text": "./i/fa/solid/flag.png\"",
+	"displayText": "flag|fa-solid",
+	"filename": "flag"
+}, {
+	"text": "./i/fa/solid/flask.png\"",
+	"displayText": "flask|fa-solid",
+	"filename": "flask"
+}, {
+	"text": "./i/fa/solid/flushed.png\"",
+	"displayText": "flushed|fa-solid",
+	"filename": "flushed"
+}, {
+	"text": "./i/fa/solid/folder-minus.png\"",
+	"displayText": "folder-minus|fa-solid",
+	"filename": "folder-minus"
+}, {
+	"text": "./i/fa/solid/folder-open.png\"",
+	"displayText": "folder-open|fa-solid",
+	"filename": "folder-open"
+}, {
+	"text": "./i/fa/solid/folder-plus.png\"",
+	"displayText": "folder-plus|fa-solid",
+	"filename": "folder-plus"
+}, {
+	"text": "./i/fa/solid/folder.png\"",
+	"displayText": "folder|fa-solid",
+	"filename": "folder"
+}, {
+	"text": "./i/fa/solid/font-awesome-logo-full.png\"",
+	"displayText": "font-awesome-logo-full|fa-solid",
+	"filename": "font-awesome-logo-full"
+}, {
+	"text": "./i/fa/solid/font.png\"",
+	"displayText": "font|fa-solid",
+	"filename": "font"
+}, {
+	"text": "./i/fa/solid/football-ball.png\"",
+	"displayText": "football-ball|fa-solid",
+	"filename": "football-ball"
+}, {
+	"text": "./i/fa/solid/forward.png\"",
+	"displayText": "forward|fa-solid",
+	"filename": "forward"
+}, {
+	"text": "./i/fa/solid/frog.png\"",
+	"displayText": "frog|fa-solid",
+	"filename": "frog"
+}, {
+	"text": "./i/fa/solid/frown-open.png\"",
+	"displayText": "frown-open|fa-solid",
+	"filename": "frown-open"
+}, {
+	"text": "./i/fa/solid/frown.png\"",
+	"displayText": "frown|fa-solid",
+	"filename": "frown"
+}, {
+	"text": "./i/fa/solid/funnel-dollar.png\"",
+	"displayText": "funnel-dollar|fa-solid",
+	"filename": "funnel-dollar"
+}, {
+	"text": "./i/fa/solid/futbol.png\"",
+	"displayText": "futbol|fa-solid",
+	"filename": "futbol"
+}, {
+	"text": "./i/fa/solid/gamepad.png\"",
+	"displayText": "gamepad|fa-solid",
+	"filename": "gamepad"
+}, {
+	"text": "./i/fa/solid/gas-pump.png\"",
+	"displayText": "gas-pump|fa-solid",
+	"filename": "gas-pump"
+}, {
+	"text": "./i/fa/solid/gavel.png\"",
+	"displayText": "gavel|fa-solid",
+	"filename": "gavel"
+}, {
+	"text": "./i/fa/solid/gem.png\"",
+	"displayText": "gem|fa-solid",
+	"filename": "gem"
+}, {
+	"text": "./i/fa/solid/genderless.png\"",
+	"displayText": "genderless|fa-solid",
+	"filename": "genderless"
+}, {
+	"text": "./i/fa/solid/ghost.png\"",
+	"displayText": "ghost|fa-solid",
+	"filename": "ghost"
+}, {
+	"text": "./i/fa/solid/gift.png\"",
+	"displayText": "gift|fa-solid",
+	"filename": "gift"
+}, {
+	"text": "./i/fa/solid/gifts.png\"",
+	"displayText": "gifts|fa-solid",
+	"filename": "gifts"
+}, {
+	"text": "./i/fa/solid/glass-cheers.png\"",
+	"displayText": "glass-cheers|fa-solid",
+	"filename": "glass-cheers"
+}, {
+	"text": "./i/fa/solid/glass-martini-alt.png\"",
+	"displayText": "glass-martini-alt|fa-solid",
+	"filename": "glass-martini-alt"
+}, {
+	"text": "./i/fa/solid/glass-martini.png\"",
+	"displayText": "glass-martini|fa-solid",
+	"filename": "glass-martini"
+}, {
+	"text": "./i/fa/solid/glass-whiskey.png\"",
+	"displayText": "glass-whiskey|fa-solid",
+	"filename": "glass-whiskey"
+}, {
+	"text": "./i/fa/solid/glasses.png\"",
+	"displayText": "glasses|fa-solid",
+	"filename": "glasses"
+}, {
+	"text": "./i/fa/solid/globe-africa.png\"",
+	"displayText": "globe-africa|fa-solid",
+	"filename": "globe-africa"
+}, {
+	"text": "./i/fa/solid/globe-americas.png\"",
+	"displayText": "globe-americas|fa-solid",
+	"filename": "globe-americas"
+}, {
+	"text": "./i/fa/solid/globe-asia.png\"",
+	"displayText": "globe-asia|fa-solid",
+	"filename": "globe-asia"
+}, {
+	"text": "./i/fa/solid/globe-europe.png\"",
+	"displayText": "globe-europe|fa-solid",
+	"filename": "globe-europe"
+}, {
+	"text": "./i/fa/solid/globe.png\"",
+	"displayText": "globe|fa-solid",
+	"filename": "globe"
+}, {
+	"text": "./i/fa/solid/golf-ball.png\"",
+	"displayText": "golf-ball|fa-solid",
+	"filename": "golf-ball"
+}, {
+	"text": "./i/fa/solid/gopuram.png\"",
+	"displayText": "gopuram|fa-solid",
+	"filename": "gopuram"
+}, {
+	"text": "./i/fa/solid/graduation-cap.png\"",
+	"displayText": "graduation-cap|fa-solid",
+	"filename": "graduation-cap"
+}, {
+	"text": "./i/fa/solid/greater-than-equal.png\"",
+	"displayText": "greater-than-equal|fa-solid",
+	"filename": "greater-than-equal"
+}, {
+	"text": "./i/fa/solid/greater-than.png\"",
+	"displayText": "greater-than|fa-solid",
+	"filename": "greater-than"
+}, {
+	"text": "./i/fa/solid/grimace.png\"",
+	"displayText": "grimace|fa-solid",
+	"filename": "grimace"
+}, {
+	"text": "./i/fa/solid/grin-alt.png\"",
+	"displayText": "grin-alt|fa-solid",
+	"filename": "grin-alt"
+}, {
+	"text": "./i/fa/solid/grin-beam-sweat.png\"",
+	"displayText": "grin-beam-sweat|fa-solid",
+	"filename": "grin-beam-sweat"
+}, {
+	"text": "./i/fa/solid/grin-beam.png\"",
+	"displayText": "grin-beam|fa-solid",
+	"filename": "grin-beam"
+}, {
+	"text": "./i/fa/solid/grin-hearts.png\"",
+	"displayText": "grin-hearts|fa-solid",
+	"filename": "grin-hearts"
+}, {
+	"text": "./i/fa/solid/grin-squint-tears.png\"",
+	"displayText": "grin-squint-tears|fa-solid",
+	"filename": "grin-squint-tears"
+}, {
+	"text": "./i/fa/solid/grin-squint.png\"",
+	"displayText": "grin-squint|fa-solid",
+	"filename": "grin-squint"
+}, {
+	"text": "./i/fa/solid/grin-stars.png\"",
+	"displayText": "grin-stars|fa-solid",
+	"filename": "grin-stars"
+}, {
+	"text": "./i/fa/solid/grin-tears.png\"",
+	"displayText": "grin-tears|fa-solid",
+	"filename": "grin-tears"
+}, {
+	"text": "./i/fa/solid/grin-tongue-squint.png\"",
+	"displayText": "grin-tongue-squint|fa-solid",
+	"filename": "grin-tongue-squint"
+}, {
+	"text": "./i/fa/solid/grin-tongue-wink.png\"",
+	"displayText": "grin-tongue-wink|fa-solid",
+	"filename": "grin-tongue-wink"
+}, {
+	"text": "./i/fa/solid/grin-tongue.png\"",
+	"displayText": "grin-tongue|fa-solid",
+	"filename": "grin-tongue"
+}, {
+	"text": "./i/fa/solid/grin-wink.png\"",
+	"displayText": "grin-wink|fa-solid",
+	"filename": "grin-wink"
+}, {
+	"text": "./i/fa/solid/grin.png\"",
+	"displayText": "grin|fa-solid",
+	"filename": "grin"
+}, {
+	"text": "./i/fa/solid/grip-horizontal.png\"",
+	"displayText": "grip-horizontal|fa-solid",
+	"filename": "grip-horizontal"
+}, {
+	"text": "./i/fa/solid/grip-lines-vertical.png\"",
+	"displayText": "grip-lines-vertical|fa-solid",
+	"filename": "grip-lines-vertical"
+}, {
+	"text": "./i/fa/solid/grip-lines.png\"",
+	"displayText": "grip-lines|fa-solid",
+	"filename": "grip-lines"
+}, {
+	"text": "./i/fa/solid/grip-vertical.png\"",
+	"displayText": "grip-vertical|fa-solid",
+	"filename": "grip-vertical"
+}, {
+	"text": "./i/fa/solid/guitar.png\"",
+	"displayText": "guitar|fa-solid",
+	"filename": "guitar"
+}, {
+	"text": "./i/fa/solid/h-square.png\"",
+	"displayText": "h-square|fa-solid",
+	"filename": "h-square"
+}, {
+	"text": "./i/fa/solid/hamburger.png\"",
+	"displayText": "hamburger|fa-solid",
+	"filename": "hamburger"
+}, {
+	"text": "./i/fa/solid/hammer.png\"",
+	"displayText": "hammer|fa-solid",
+	"filename": "hammer"
+}, {
+	"text": "./i/fa/solid/hamsa.png\"",
+	"displayText": "hamsa|fa-solid",
+	"filename": "hamsa"
+}, {
+	"text": "./i/fa/solid/hand-holding-heart.png\"",
+	"displayText": "hand-holding-heart|fa-solid",
+	"filename": "hand-holding-heart"
+}, {
+	"text": "./i/fa/solid/hand-holding-medical.png\"",
+	"displayText": "hand-holding-medical|fa-solid",
+	"filename": "hand-holding-medical"
+}, {
+	"text": "./i/fa/solid/hand-holding-usd.png\"",
+	"displayText": "hand-holding-usd|fa-solid",
+	"filename": "hand-holding-usd"
+}, {
+	"text": "./i/fa/solid/hand-holding-water.png\"",
+	"displayText": "hand-holding-water|fa-solid",
+	"filename": "hand-holding-water"
+}, {
+	"text": "./i/fa/solid/hand-holding.png\"",
+	"displayText": "hand-holding|fa-solid",
+	"filename": "hand-holding"
+}, {
+	"text": "./i/fa/solid/hand-lizard.png\"",
+	"displayText": "hand-lizard|fa-solid",
+	"filename": "hand-lizard"
+}, {
+	"text": "./i/fa/solid/hand-middle-finger.png\"",
+	"displayText": "hand-middle-finger|fa-solid",
+	"filename": "hand-middle-finger"
+}, {
+	"text": "./i/fa/solid/hand-paper.png\"",
+	"displayText": "hand-paper|fa-solid",
+	"filename": "hand-paper"
+}, {
+	"text": "./i/fa/solid/hand-peace.png\"",
+	"displayText": "hand-peace|fa-solid",
+	"filename": "hand-peace"
+}, {
+	"text": "./i/fa/solid/hand-point-down.png\"",
+	"displayText": "hand-point-down|fa-solid",
+	"filename": "hand-point-down"
+}, {
+	"text": "./i/fa/solid/hand-point-left.png\"",
+	"displayText": "hand-point-left|fa-solid",
+	"filename": "hand-point-left"
+}, {
+	"text": "./i/fa/solid/hand-point-right.png\"",
+	"displayText": "hand-point-right|fa-solid",
+	"filename": "hand-point-right"
+}, {
+	"text": "./i/fa/solid/hand-point-up.png\"",
+	"displayText": "hand-point-up|fa-solid",
+	"filename": "hand-point-up"
+}, {
+	"text": "./i/fa/solid/hand-pointer.png\"",
+	"displayText": "hand-pointer|fa-solid",
+	"filename": "hand-pointer"
+}, {
+	"text": "./i/fa/solid/hand-rock.png\"",
+	"displayText": "hand-rock|fa-solid",
+	"filename": "hand-rock"
+}, {
+	"text": "./i/fa/solid/hand-scissors.png\"",
+	"displayText": "hand-scissors|fa-solid",
+	"filename": "hand-scissors"
+}, {
+	"text": "./i/fa/solid/hand-sparkles.png\"",
+	"displayText": "hand-sparkles|fa-solid",
+	"filename": "hand-sparkles"
+}, {
+	"text": "./i/fa/solid/hand-spock.png\"",
+	"displayText": "hand-spock|fa-solid",
+	"filename": "hand-spock"
+}, {
+	"text": "./i/fa/solid/hands-helping.png\"",
+	"displayText": "hands-helping|fa-solid",
+	"filename": "hands-helping"
+}, {
+	"text": "./i/fa/solid/hands-wash.png\"",
+	"displayText": "hands-wash|fa-solid",
+	"filename": "hands-wash"
+}, {
+	"text": "./i/fa/solid/hands.png\"",
+	"displayText": "hands|fa-solid",
+	"filename": "hands"
+}, {
+	"text": "./i/fa/solid/handshake-alt-slash.png\"",
+	"displayText": "handshake-alt-slash|fa-solid",
+	"filename": "handshake-alt-slash"
+}, {
+	"text": "./i/fa/solid/handshake-slash.png\"",
+	"displayText": "handshake-slash|fa-solid",
+	"filename": "handshake-slash"
+}, {
+	"text": "./i/fa/solid/handshake.png\"",
+	"displayText": "handshake|fa-solid",
+	"filename": "handshake"
+}, {
+	"text": "./i/fa/solid/hanukiah.png\"",
+	"displayText": "hanukiah|fa-solid",
+	"filename": "hanukiah"
+}, {
+	"text": "./i/fa/solid/hard-hat.png\"",
+	"displayText": "hard-hat|fa-solid",
+	"filename": "hard-hat"
+}, {
+	"text": "./i/fa/solid/hashtag.png\"",
+	"displayText": "hashtag|fa-solid",
+	"filename": "hashtag"
+}, {
+	"text": "./i/fa/solid/hat-cowboy-side.png\"",
+	"displayText": "hat-cowboy-side|fa-solid",
+	"filename": "hat-cowboy-side"
+}, {
+	"text": "./i/fa/solid/hat-cowboy.png\"",
+	"displayText": "hat-cowboy|fa-solid",
+	"filename": "hat-cowboy"
+}, {
+	"text": "./i/fa/solid/hat-wizard.png\"",
+	"displayText": "hat-wizard|fa-solid",
+	"filename": "hat-wizard"
+}, {
+	"text": "./i/fa/solid/hdd.png\"",
+	"displayText": "hdd|fa-solid",
+	"filename": "hdd"
+}, {
+	"text": "./i/fa/solid/head-side-cough-slash.png\"",
+	"displayText": "head-side-cough-slash|fa-solid",
+	"filename": "head-side-cough-slash"
+}, {
+	"text": "./i/fa/solid/head-side-cough.png\"",
+	"displayText": "head-side-cough|fa-solid",
+	"filename": "head-side-cough"
+}, {
+	"text": "./i/fa/solid/head-side-mask.png\"",
+	"displayText": "head-side-mask|fa-solid",
+	"filename": "head-side-mask"
+}, {
+	"text": "./i/fa/solid/head-side-virus.png\"",
+	"displayText": "head-side-virus|fa-solid",
+	"filename": "head-side-virus"
+}, {
+	"text": "./i/fa/solid/heading.png\"",
+	"displayText": "heading|fa-solid",
+	"filename": "heading"
+}, {
+	"text": "./i/fa/solid/headphones-alt.png\"",
+	"displayText": "headphones-alt|fa-solid",
+	"filename": "headphones-alt"
+}, {
+	"text": "./i/fa/solid/headphones.png\"",
+	"displayText": "headphones|fa-solid",
+	"filename": "headphones"
+}, {
+	"text": "./i/fa/solid/headset.png\"",
+	"displayText": "headset|fa-solid",
+	"filename": "headset"
+}, {
+	"text": "./i/fa/solid/heart-broken.png\"",
+	"displayText": "heart-broken|fa-solid",
+	"filename": "heart-broken"
+}, {
+	"text": "./i/fa/solid/heart.png\"",
+	"displayText": "heart|fa-solid",
+	"filename": "heart"
+}, {
+	"text": "./i/fa/solid/heartbeat.png\"",
+	"displayText": "heartbeat|fa-solid",
+	"filename": "heartbeat"
+}, {
+	"text": "./i/fa/solid/helicopter.png\"",
+	"displayText": "helicopter|fa-solid",
+	"filename": "helicopter"
+}, {
+	"text": "./i/fa/solid/highlighter.png\"",
+	"displayText": "highlighter|fa-solid",
+	"filename": "highlighter"
+}, {
+	"text": "./i/fa/solid/hiking.png\"",
+	"displayText": "hiking|fa-solid",
+	"filename": "hiking"
+}, {
+	"text": "./i/fa/solid/hippo.png\"",
+	"displayText": "hippo|fa-solid",
+	"filename": "hippo"
+}, {
+	"text": "./i/fa/solid/history.png\"",
+	"displayText": "history|fa-solid",
+	"filename": "history"
+}, {
+	"text": "./i/fa/solid/hockey-puck.png\"",
+	"displayText": "hockey-puck|fa-solid",
+	"filename": "hockey-puck"
+}, {
+	"text": "./i/fa/solid/holly-berry.png\"",
+	"displayText": "holly-berry|fa-solid",
+	"filename": "holly-berry"
+}, {
+	"text": "./i/fa/solid/home.png\"",
+	"displayText": "home|fa-solid",
+	"filename": "home"
+}, {
+	"text": "./i/fa/solid/horse-head.png\"",
+	"displayText": "horse-head|fa-solid",
+	"filename": "horse-head"
+}, {
+	"text": "./i/fa/solid/horse.png\"",
+	"displayText": "horse|fa-solid",
+	"filename": "horse"
+}, {
+	"text": "./i/fa/solid/hospital-alt.png\"",
+	"displayText": "hospital-alt|fa-solid",
+	"filename": "hospital-alt"
+}, {
+	"text": "./i/fa/solid/hospital-symbol.png\"",
+	"displayText": "hospital-symbol|fa-solid",
+	"filename": "hospital-symbol"
+}, {
+	"text": "./i/fa/solid/hospital-user.png\"",
+	"displayText": "hospital-user|fa-solid",
+	"filename": "hospital-user"
+}, {
+	"text": "./i/fa/solid/hospital.png\"",
+	"displayText": "hospital|fa-solid",
+	"filename": "hospital"
+}, {
+	"text": "./i/fa/solid/hot-tub.png\"",
+	"displayText": "hot-tub|fa-solid",
+	"filename": "hot-tub"
+}, {
+	"text": "./i/fa/solid/hotdog.png\"",
+	"displayText": "hotdog|fa-solid",
+	"filename": "hotdog"
+}, {
+	"text": "./i/fa/solid/hotel.png\"",
+	"displayText": "hotel|fa-solid",
+	"filename": "hotel"
+}, {
+	"text": "./i/fa/solid/hourglass-end.png\"",
+	"displayText": "hourglass-end|fa-solid",
+	"filename": "hourglass-end"
+}, {
+	"text": "./i/fa/solid/hourglass-half.png\"",
+	"displayText": "hourglass-half|fa-solid",
+	"filename": "hourglass-half"
+}, {
+	"text": "./i/fa/solid/hourglass-start.png\"",
+	"displayText": "hourglass-start|fa-solid",
+	"filename": "hourglass-start"
+}, {
+	"text": "./i/fa/solid/hourglass.png\"",
+	"displayText": "hourglass|fa-solid",
+	"filename": "hourglass"
+}, {
+	"text": "./i/fa/solid/house-damage.png\"",
+	"displayText": "house-damage|fa-solid",
+	"filename": "house-damage"
+}, {
+	"text": "./i/fa/solid/house-user.png\"",
+	"displayText": "house-user|fa-solid",
+	"filename": "house-user"
+}, {
+	"text": "./i/fa/solid/hryvnia.png\"",
+	"displayText": "hryvnia|fa-solid",
+	"filename": "hryvnia"
+}, {
+	"text": "./i/fa/solid/i-cursor.png\"",
+	"displayText": "i-cursor|fa-solid",
+	"filename": "i-cursor"
+}, {
+	"text": "./i/fa/solid/ice-cream.png\"",
+	"displayText": "ice-cream|fa-solid",
+	"filename": "ice-cream"
+}, {
+	"text": "./i/fa/solid/icicles.png\"",
+	"displayText": "icicles|fa-solid",
+	"filename": "icicles"
+}, {
+	"text": "./i/fa/solid/icons.png\"",
+	"displayText": "icons|fa-solid",
+	"filename": "icons"
+}, {
+	"text": "./i/fa/solid/id-badge.png\"",
+	"displayText": "id-badge|fa-solid",
+	"filename": "id-badge"
+}, {
+	"text": "./i/fa/solid/id-card-alt.png\"",
+	"displayText": "id-card-alt|fa-solid",
+	"filename": "id-card-alt"
+}, {
+	"text": "./i/fa/solid/id-card.png\"",
+	"displayText": "id-card|fa-solid",
+	"filename": "id-card"
+}, {
+	"text": "./i/fa/solid/igloo.png\"",
+	"displayText": "igloo|fa-solid",
+	"filename": "igloo"
+}, {
+	"text": "./i/fa/solid/image.png\"",
+	"displayText": "image|fa-solid",
+	"filename": "image"
+}, {
+	"text": "./i/fa/solid/images.png\"",
+	"displayText": "images|fa-solid",
+	"filename": "images"
+}, {
+	"text": "./i/fa/solid/inbox.png\"",
+	"displayText": "inbox|fa-solid",
+	"filename": "inbox"
+}, {
+	"text": "./i/fa/solid/indent.png\"",
+	"displayText": "indent|fa-solid",
+	"filename": "indent"
+}, {
+	"text": "./i/fa/solid/industry.png\"",
+	"displayText": "industry|fa-solid",
+	"filename": "industry"
+}, {
+	"text": "./i/fa/solid/infinity.png\"",
+	"displayText": "infinity|fa-solid",
+	"filename": "infinity"
+}, {
+	"text": "./i/fa/solid/info-circle.png\"",
+	"displayText": "info-circle|fa-solid",
+	"filename": "info-circle"
+}, {
+	"text": "./i/fa/solid/info.png\"",
+	"displayText": "info|fa-solid",
+	"filename": "info"
+}, {
+	"text": "./i/fa/solid/italic.png\"",
+	"displayText": "italic|fa-solid",
+	"filename": "italic"
+}, {
+	"text": "./i/fa/solid/jedi.png\"",
+	"displayText": "jedi|fa-solid",
+	"filename": "jedi"
+}, {
+	"text": "./i/fa/solid/joint.png\"",
+	"displayText": "joint|fa-solid",
+	"filename": "joint"
+}, {
+	"text": "./i/fa/solid/journal-whills.png\"",
+	"displayText": "journal-whills|fa-solid",
+	"filename": "journal-whills"
+}, {
+	"text": "./i/fa/solid/kaaba.png\"",
+	"displayText": "kaaba|fa-solid",
+	"filename": "kaaba"
+}, {
+	"text": "./i/fa/solid/key.png\"",
+	"displayText": "key|fa-solid",
+	"filename": "key"
+}, {
+	"text": "./i/fa/solid/keyboard.png\"",
+	"displayText": "keyboard|fa-solid",
+	"filename": "keyboard"
+}, {
+	"text": "./i/fa/solid/khanda.png\"",
+	"displayText": "khanda|fa-solid",
+	"filename": "khanda"
+}, {
+	"text": "./i/fa/solid/kiss-beam.png\"",
+	"displayText": "kiss-beam|fa-solid",
+	"filename": "kiss-beam"
+}, {
+	"text": "./i/fa/solid/kiss-wink-heart.png\"",
+	"displayText": "kiss-wink-heart|fa-solid",
+	"filename": "kiss-wink-heart"
+}, {
+	"text": "./i/fa/solid/kiss.png\"",
+	"displayText": "kiss|fa-solid",
+	"filename": "kiss"
+}, {
+	"text": "./i/fa/solid/kiwi-bird.png\"",
+	"displayText": "kiwi-bird|fa-solid",
+	"filename": "kiwi-bird"
+}, {
+	"text": "./i/fa/solid/landmark.png\"",
+	"displayText": "landmark|fa-solid",
+	"filename": "landmark"
+}, {
+	"text": "./i/fa/solid/language.png\"",
+	"displayText": "language|fa-solid",
+	"filename": "language"
+}, {
+	"text": "./i/fa/solid/laptop-code.png\"",
+	"displayText": "laptop-code|fa-solid",
+	"filename": "laptop-code"
+}, {
+	"text": "./i/fa/solid/laptop-house.png\"",
+	"displayText": "laptop-house|fa-solid",
+	"filename": "laptop-house"
+}, {
+	"text": "./i/fa/solid/laptop-medical.png\"",
+	"displayText": "laptop-medical|fa-solid",
+	"filename": "laptop-medical"
+}, {
+	"text": "./i/fa/solid/laptop.png\"",
+	"displayText": "laptop|fa-solid",
+	"filename": "laptop"
+}, {
+	"text": "./i/fa/solid/laugh-beam.png\"",
+	"displayText": "laugh-beam|fa-solid",
+	"filename": "laugh-beam"
+}, {
+	"text": "./i/fa/solid/laugh-squint.png\"",
+	"displayText": "laugh-squint|fa-solid",
+	"filename": "laugh-squint"
+}, {
+	"text": "./i/fa/solid/laugh-wink.png\"",
+	"displayText": "laugh-wink|fa-solid",
+	"filename": "laugh-wink"
+}, {
+	"text": "./i/fa/solid/laugh.png\"",
+	"displayText": "laugh|fa-solid",
+	"filename": "laugh"
+}, {
+	"text": "./i/fa/solid/layer-group.png\"",
+	"displayText": "layer-group|fa-solid",
+	"filename": "layer-group"
+}, {
+	"text": "./i/fa/solid/leaf.png\"",
+	"displayText": "leaf|fa-solid",
+	"filename": "leaf"
+}, {
+	"text": "./i/fa/solid/lemon.png\"",
+	"displayText": "lemon|fa-solid",
+	"filename": "lemon"
+}, {
+	"text": "./i/fa/solid/less-than-equal.png\"",
+	"displayText": "less-than-equal|fa-solid",
+	"filename": "less-than-equal"
+}, {
+	"text": "./i/fa/solid/less-than.png\"",
+	"displayText": "less-than|fa-solid",
+	"filename": "less-than"
+}, {
+	"text": "./i/fa/solid/level-down-alt.png\"",
+	"displayText": "level-down-alt|fa-solid",
+	"filename": "level-down-alt"
+}, {
+	"text": "./i/fa/solid/level-up-alt.png\"",
+	"displayText": "level-up-alt|fa-solid",
+	"filename": "level-up-alt"
+}, {
+	"text": "./i/fa/solid/life-ring.png\"",
+	"displayText": "life-ring|fa-solid",
+	"filename": "life-ring"
+}, {
+	"text": "./i/fa/solid/lightbulb.png\"",
+	"displayText": "lightbulb|fa-solid",
+	"filename": "lightbulb"
+}, {
+	"text": "./i/fa/solid/link.png\"",
+	"displayText": "link|fa-solid",
+	"filename": "link"
+}, {
+	"text": "./i/fa/solid/lira-sign.png\"",
+	"displayText": "lira-sign|fa-solid",
+	"filename": "lira-sign"
+}, {
+	"text": "./i/fa/solid/list-alt.png\"",
+	"displayText": "list-alt|fa-solid",
+	"filename": "list-alt"
+}, {
+	"text": "./i/fa/solid/list-ol.png\"",
+	"displayText": "list-ol|fa-solid",
+	"filename": "list-ol"
+}, {
+	"text": "./i/fa/solid/list-ul.png\"",
+	"displayText": "list-ul|fa-solid",
+	"filename": "list-ul"
+}, {
+	"text": "./i/fa/solid/list.png\"",
+	"displayText": "list|fa-solid",
+	"filename": "list"
+}, {
+	"text": "./i/fa/solid/location-arrow.png\"",
+	"displayText": "location-arrow|fa-solid",
+	"filename": "location-arrow"
+}, {
+	"text": "./i/fa/solid/lock-open.png\"",
+	"displayText": "lock-open|fa-solid",
+	"filename": "lock-open"
+}, {
+	"text": "./i/fa/solid/lock.png\"",
+	"displayText": "lock|fa-solid",
+	"filename": "lock"
+}, {
+	"text": "./i/fa/solid/long-arrow-alt-down.png\"",
+	"displayText": "long-arrow-alt-down|fa-solid",
+	"filename": "long-arrow-alt-down"
+}, {
+	"text": "./i/fa/solid/long-arrow-alt-left.png\"",
+	"displayText": "long-arrow-alt-left|fa-solid",
+	"filename": "long-arrow-alt-left"
+}, {
+	"text": "./i/fa/solid/long-arrow-alt-right.png\"",
+	"displayText": "long-arrow-alt-right|fa-solid",
+	"filename": "long-arrow-alt-right"
+}, {
+	"text": "./i/fa/solid/long-arrow-alt-up.png\"",
+	"displayText": "long-arrow-alt-up|fa-solid",
+	"filename": "long-arrow-alt-up"
+}, {
+	"text": "./i/fa/solid/low-vision.png\"",
+	"displayText": "low-vision|fa-solid",
+	"filename": "low-vision"
+}, {
+	"text": "./i/fa/solid/luggage-cart.png\"",
+	"displayText": "luggage-cart|fa-solid",
+	"filename": "luggage-cart"
+}, {
+	"text": "./i/fa/solid/lungs-virus.png\"",
+	"displayText": "lungs-virus|fa-solid",
+	"filename": "lungs-virus"
+}, {
+	"text": "./i/fa/solid/lungs.png\"",
+	"displayText": "lungs|fa-solid",
+	"filename": "lungs"
+}, {
+	"text": "./i/fa/solid/magic.png\"",
+	"displayText": "magic|fa-solid",
+	"filename": "magic"
+}, {
+	"text": "./i/fa/solid/magnet.png\"",
+	"displayText": "magnet|fa-solid",
+	"filename": "magnet"
+}, {
+	"text": "./i/fa/solid/mail-bulk.png\"",
+	"displayText": "mail-bulk|fa-solid",
+	"filename": "mail-bulk"
+}, {
+	"text": "./i/fa/solid/male.png\"",
+	"displayText": "male|fa-solid",
+	"filename": "male"
+}, {
+	"text": "./i/fa/solid/map-marked-alt.png\"",
+	"displayText": "map-marked-alt|fa-solid",
+	"filename": "map-marked-alt"
+}, {
+	"text": "./i/fa/solid/map-marked.png\"",
+	"displayText": "map-marked|fa-solid",
+	"filename": "map-marked"
+}, {
+	"text": "./i/fa/solid/map-marker-alt.png\"",
+	"displayText": "map-marker-alt|fa-solid",
+	"filename": "map-marker-alt"
+}, {
+	"text": "./i/fa/solid/map-marker.png\"",
+	"displayText": "map-marker|fa-solid",
+	"filename": "map-marker"
+}, {
+	"text": "./i/fa/solid/map-pin.png\"",
+	"displayText": "map-pin|fa-solid",
+	"filename": "map-pin"
+}, {
+	"text": "./i/fa/solid/map-signs.png\"",
+	"displayText": "map-signs|fa-solid",
+	"filename": "map-signs"
+}, {
+	"text": "./i/fa/solid/map.png\"",
+	"displayText": "map|fa-solid",
+	"filename": "map"
+}, {
+	"text": "./i/fa/solid/marker.png\"",
+	"displayText": "marker|fa-solid",
+	"filename": "marker"
+}, {
+	"text": "./i/fa/solid/mars-double.png\"",
+	"displayText": "mars-double|fa-solid",
+	"filename": "mars-double"
+}, {
+	"text": "./i/fa/solid/mars-stroke-h.png\"",
+	"displayText": "mars-stroke-h|fa-solid",
+	"filename": "mars-stroke-h"
+}, {
+	"text": "./i/fa/solid/mars-stroke-v.png\"",
+	"displayText": "mars-stroke-v|fa-solid",
+	"filename": "mars-stroke-v"
+}, {
+	"text": "./i/fa/solid/mars-stroke.png\"",
+	"displayText": "mars-stroke|fa-solid",
+	"filename": "mars-stroke"
+}, {
+	"text": "./i/fa/solid/mars.png\"",
+	"displayText": "mars|fa-solid",
+	"filename": "mars"
+}, {
+	"text": "./i/fa/solid/mask.png\"",
+	"displayText": "mask|fa-solid",
+	"filename": "mask"
+}, {
+	"text": "./i/fa/solid/medal.png\"",
+	"displayText": "medal|fa-solid",
+	"filename": "medal"
+}, {
+	"text": "./i/fa/solid/medkit.png\"",
+	"displayText": "medkit|fa-solid",
+	"filename": "medkit"
+}, {
+	"text": "./i/fa/solid/meh-blank.png\"",
+	"displayText": "meh-blank|fa-solid",
+	"filename": "meh-blank"
+}, {
+	"text": "./i/fa/solid/meh-rolling-eyes.png\"",
+	"displayText": "meh-rolling-eyes|fa-solid",
+	"filename": "meh-rolling-eyes"
+}, {
+	"text": "./i/fa/solid/meh.png\"",
+	"displayText": "meh|fa-solid",
+	"filename": "meh"
+}, {
+	"text": "./i/fa/solid/memory.png\"",
+	"displayText": "memory|fa-solid",
+	"filename": "memory"
+}, {
+	"text": "./i/fa/solid/menorah.png\"",
+	"displayText": "menorah|fa-solid",
+	"filename": "menorah"
+}, {
+	"text": "./i/fa/solid/mercury.png\"",
+	"displayText": "mercury|fa-solid",
+	"filename": "mercury"
+}, {
+	"text": "./i/fa/solid/meteor.png\"",
+	"displayText": "meteor|fa-solid",
+	"filename": "meteor"
+}, {
+	"text": "./i/fa/solid/microchip.png\"",
+	"displayText": "microchip|fa-solid",
+	"filename": "microchip"
+}, {
+	"text": "./i/fa/solid/microphone-alt-slash.png\"",
+	"displayText": "microphone-alt-slash|fa-solid",
+	"filename": "microphone-alt-slash"
+}, {
+	"text": "./i/fa/solid/microphone-alt.png\"",
+	"displayText": "microphone-alt|fa-solid",
+	"filename": "microphone-alt"
+}, {
+	"text": "./i/fa/solid/microphone-slash.png\"",
+	"displayText": "microphone-slash|fa-solid",
+	"filename": "microphone-slash"
+}, {
+	"text": "./i/fa/solid/microphone.png\"",
+	"displayText": "microphone|fa-solid",
+	"filename": "microphone"
+}, {
+	"text": "./i/fa/solid/microscope.png\"",
+	"displayText": "microscope|fa-solid",
+	"filename": "microscope"
+}, {
+	"text": "./i/fa/solid/minus-circle.png\"",
+	"displayText": "minus-circle|fa-solid",
+	"filename": "minus-circle"
+}, {
+	"text": "./i/fa/solid/minus-square.png\"",
+	"displayText": "minus-square|fa-solid",
+	"filename": "minus-square"
+}, {
+	"text": "./i/fa/solid/minus.png\"",
+	"displayText": "minus|fa-solid",
+	"filename": "minus"
+}, {
+	"text": "./i/fa/solid/mitten.png\"",
+	"displayText": "mitten|fa-solid",
+	"filename": "mitten"
+}, {
+	"text": "./i/fa/solid/mobile-alt.png\"",
+	"displayText": "mobile-alt|fa-solid",
+	"filename": "mobile-alt"
+}, {
+	"text": "./i/fa/solid/mobile.png\"",
+	"displayText": "mobile|fa-solid",
+	"filename": "mobile"
+}, {
+	"text": "./i/fa/solid/money-bill-alt.png\"",
+	"displayText": "money-bill-alt|fa-solid",
+	"filename": "money-bill-alt"
+}, {
+	"text": "./i/fa/solid/money-bill-wave-alt.png\"",
+	"displayText": "money-bill-wave-alt|fa-solid",
+	"filename": "money-bill-wave-alt"
+}, {
+	"text": "./i/fa/solid/money-bill-wave.png\"",
+	"displayText": "money-bill-wave|fa-solid",
+	"filename": "money-bill-wave"
+}, {
+	"text": "./i/fa/solid/money-bill.png\"",
+	"displayText": "money-bill|fa-solid",
+	"filename": "money-bill"
+}, {
+	"text": "./i/fa/solid/money-check-alt.png\"",
+	"displayText": "money-check-alt|fa-solid",
+	"filename": "money-check-alt"
+}, {
+	"text": "./i/fa/solid/money-check.png\"",
+	"displayText": "money-check|fa-solid",
+	"filename": "money-check"
+}, {
+	"text": "./i/fa/solid/monument.png\"",
+	"displayText": "monument|fa-solid",
+	"filename": "monument"
+}, {
+	"text": "./i/fa/solid/moon.png\"",
+	"displayText": "moon|fa-solid",
+	"filename": "moon"
+}, {
+	"text": "./i/fa/solid/mortar-pestle.png\"",
+	"displayText": "mortar-pestle|fa-solid",
+	"filename": "mortar-pestle"
+}, {
+	"text": "./i/fa/solid/mosque.png\"",
+	"displayText": "mosque|fa-solid",
+	"filename": "mosque"
+}, {
+	"text": "./i/fa/solid/motorcycle.png\"",
+	"displayText": "motorcycle|fa-solid",
+	"filename": "motorcycle"
+}, {
+	"text": "./i/fa/solid/mountain.png\"",
+	"displayText": "mountain|fa-solid",
+	"filename": "mountain"
+}, {
+	"text": "./i/fa/solid/mouse-pointer.png\"",
+	"displayText": "mouse-pointer|fa-solid",
+	"filename": "mouse-pointer"
+}, {
+	"text": "./i/fa/solid/mouse.png\"",
+	"displayText": "mouse|fa-solid",
+	"filename": "mouse"
+}, {
+	"text": "./i/fa/solid/mug-hot.png\"",
+	"displayText": "mug-hot|fa-solid",
+	"filename": "mug-hot"
+}, {
+	"text": "./i/fa/solid/music.png\"",
+	"displayText": "music|fa-solid",
+	"filename": "music"
+}, {
+	"text": "./i/fa/solid/network-wired.png\"",
+	"displayText": "network-wired|fa-solid",
+	"filename": "network-wired"
+}, {
+	"text": "./i/fa/solid/neuter.png\"",
+	"displayText": "neuter|fa-solid",
+	"filename": "neuter"
+}, {
+	"text": "./i/fa/solid/newspaper.png\"",
+	"displayText": "newspaper|fa-solid",
+	"filename": "newspaper"
+}, {
+	"text": "./i/fa/solid/not-equal.png\"",
+	"displayText": "not-equal|fa-solid",
+	"filename": "not-equal"
+}, {
+	"text": "./i/fa/solid/notes-medical.png\"",
+	"displayText": "notes-medical|fa-solid",
+	"filename": "notes-medical"
+}, {
+	"text": "./i/fa/solid/object-group.png\"",
+	"displayText": "object-group|fa-solid",
+	"filename": "object-group"
+}, {
+	"text": "./i/fa/solid/object-ungroup.png\"",
+	"displayText": "object-ungroup|fa-solid",
+	"filename": "object-ungroup"
+}, {
+	"text": "./i/fa/solid/oil-can.png\"",
+	"displayText": "oil-can|fa-solid",
+	"filename": "oil-can"
+}, {
+	"text": "./i/fa/solid/om.png\"",
+	"displayText": "om|fa-solid",
+	"filename": "om"
+}, {
+	"text": "./i/fa/solid/otter.png\"",
+	"displayText": "otter|fa-solid",
+	"filename": "otter"
+}, {
+	"text": "./i/fa/solid/outdent.png\"",
+	"displayText": "outdent|fa-solid",
+	"filename": "outdent"
+}, {
+	"text": "./i/fa/solid/pager.png\"",
+	"displayText": "pager|fa-solid",
+	"filename": "pager"
+}, {
+	"text": "./i/fa/solid/paint-brush.png\"",
+	"displayText": "paint-brush|fa-solid",
+	"filename": "paint-brush"
+}, {
+	"text": "./i/fa/solid/paint-roller.png\"",
+	"displayText": "paint-roller|fa-solid",
+	"filename": "paint-roller"
+}, {
+	"text": "./i/fa/solid/palette.png\"",
+	"displayText": "palette|fa-solid",
+	"filename": "palette"
+}, {
+	"text": "./i/fa/solid/pallet.png\"",
+	"displayText": "pallet|fa-solid",
+	"filename": "pallet"
+}, {
+	"text": "./i/fa/solid/paper-plane.png\"",
+	"displayText": "paper-plane|fa-solid",
+	"filename": "paper-plane"
+}, {
+	"text": "./i/fa/solid/paperclip.png\"",
+	"displayText": "paperclip|fa-solid",
+	"filename": "paperclip"
+}, {
+	"text": "./i/fa/solid/parachute-box.png\"",
+	"displayText": "parachute-box|fa-solid",
+	"filename": "parachute-box"
+}, {
+	"text": "./i/fa/solid/paragraph.png\"",
+	"displayText": "paragraph|fa-solid",
+	"filename": "paragraph"
+}, {
+	"text": "./i/fa/solid/parking.png\"",
+	"displayText": "parking|fa-solid",
+	"filename": "parking"
+}, {
+	"text": "./i/fa/solid/passport.png\"",
+	"displayText": "passport|fa-solid",
+	"filename": "passport"
+}, {
+	"text": "./i/fa/solid/pastafarianism.png\"",
+	"displayText": "pastafarianism|fa-solid",
+	"filename": "pastafarianism"
+}, {
+	"text": "./i/fa/solid/paste.png\"",
+	"displayText": "paste|fa-solid",
+	"filename": "paste"
+}, {
+	"text": "./i/fa/solid/pause-circle.png\"",
+	"displayText": "pause-circle|fa-solid",
+	"filename": "pause-circle"
+}, {
+	"text": "./i/fa/solid/pause.png\"",
+	"displayText": "pause|fa-solid",
+	"filename": "pause"
+}, {
+	"text": "./i/fa/solid/paw.png\"",
+	"displayText": "paw|fa-solid",
+	"filename": "paw"
+}, {
+	"text": "./i/fa/solid/peace.png\"",
+	"displayText": "peace|fa-solid",
+	"filename": "peace"
+}, {
+	"text": "./i/fa/solid/pen-alt.png\"",
+	"displayText": "pen-alt|fa-solid",
+	"filename": "pen-alt"
+}, {
+	"text": "./i/fa/solid/pen-fancy.png\"",
+	"displayText": "pen-fancy|fa-solid",
+	"filename": "pen-fancy"
+}, {
+	"text": "./i/fa/solid/pen-nib.png\"",
+	"displayText": "pen-nib|fa-solid",
+	"filename": "pen-nib"
+}, {
+	"text": "./i/fa/solid/pen-square.png\"",
+	"displayText": "pen-square|fa-solid",
+	"filename": "pen-square"
+}, {
+	"text": "./i/fa/solid/pen.png\"",
+	"displayText": "pen|fa-solid",
+	"filename": "pen"
+}, {
+	"text": "./i/fa/solid/pencil-alt.png\"",
+	"displayText": "pencil-alt|fa-solid",
+	"filename": "pencil-alt"
+}, {
+	"text": "./i/fa/solid/pencil-ruler.png\"",
+	"displayText": "pencil-ruler|fa-solid",
+	"filename": "pencil-ruler"
+}, {
+	"text": "./i/fa/solid/people-arrows.png\"",
+	"displayText": "people-arrows|fa-solid",
+	"filename": "people-arrows"
+}, {
+	"text": "./i/fa/solid/people-carry.png\"",
+	"displayText": "people-carry|fa-solid",
+	"filename": "people-carry"
+}, {
+	"text": "./i/fa/solid/pepper-hot.png\"",
+	"displayText": "pepper-hot|fa-solid",
+	"filename": "pepper-hot"
+}, {
+	"text": "./i/fa/solid/percent.png\"",
+	"displayText": "percent|fa-solid",
+	"filename": "percent"
+}, {
+	"text": "./i/fa/solid/percentage.png\"",
+	"displayText": "percentage|fa-solid",
+	"filename": "percentage"
+}, {
+	"text": "./i/fa/solid/person-booth.png\"",
+	"displayText": "person-booth|fa-solid",
+	"filename": "person-booth"
+}, {
+	"text": "./i/fa/solid/phone-alt.png\"",
+	"displayText": "phone-alt|fa-solid",
+	"filename": "phone-alt"
+}, {
+	"text": "./i/fa/solid/phone-slash.png\"",
+	"displayText": "phone-slash|fa-solid",
+	"filename": "phone-slash"
+}, {
+	"text": "./i/fa/solid/phone-square-alt.png\"",
+	"displayText": "phone-square-alt|fa-solid",
+	"filename": "phone-square-alt"
+}, {
+	"text": "./i/fa/solid/phone-square.png\"",
+	"displayText": "phone-square|fa-solid",
+	"filename": "phone-square"
+}, {
+	"text": "./i/fa/solid/phone-volume.png\"",
+	"displayText": "phone-volume|fa-solid",
+	"filename": "phone-volume"
+}, {
+	"text": "./i/fa/solid/phone.png\"",
+	"displayText": "phone|fa-solid",
+	"filename": "phone"
+}, {
+	"text": "./i/fa/solid/photo-video.png\"",
+	"displayText": "photo-video|fa-solid",
+	"filename": "photo-video"
+}, {
+	"text": "./i/fa/solid/piggy-bank.png\"",
+	"displayText": "piggy-bank|fa-solid",
+	"filename": "piggy-bank"
+}, {
+	"text": "./i/fa/solid/pills.png\"",
+	"displayText": "pills|fa-solid",
+	"filename": "pills"
+}, {
+	"text": "./i/fa/solid/pizza-slice.png\"",
+	"displayText": "pizza-slice|fa-solid",
+	"filename": "pizza-slice"
+}, {
+	"text": "./i/fa/solid/place-of-worship.png\"",
+	"displayText": "place-of-worship|fa-solid",
+	"filename": "place-of-worship"
+}, {
+	"text": "./i/fa/solid/plane-arrival.png\"",
+	"displayText": "plane-arrival|fa-solid",
+	"filename": "plane-arrival"
+}, {
+	"text": "./i/fa/solid/plane-departure.png\"",
+	"displayText": "plane-departure|fa-solid",
+	"filename": "plane-departure"
+}, {
+	"text": "./i/fa/solid/plane-slash.png\"",
+	"displayText": "plane-slash|fa-solid",
+	"filename": "plane-slash"
+}, {
+	"text": "./i/fa/solid/plane.png\"",
+	"displayText": "plane|fa-solid",
+	"filename": "plane"
+}, {
+	"text": "./i/fa/solid/play-circle.png\"",
+	"displayText": "play-circle|fa-solid",
+	"filename": "play-circle"
+}, {
+	"text": "./i/fa/solid/play.png\"",
+	"displayText": "play|fa-solid",
+	"filename": "play"
+}, {
+	"text": "./i/fa/solid/plug.png\"",
+	"displayText": "plug|fa-solid",
+	"filename": "plug"
+}, {
+	"text": "./i/fa/solid/plus-circle.png\"",
+	"displayText": "plus-circle|fa-solid",
+	"filename": "plus-circle"
+}, {
+	"text": "./i/fa/solid/plus-square.png\"",
+	"displayText": "plus-square|fa-solid",
+	"filename": "plus-square"
+}, {
+	"text": "./i/fa/solid/plus.png\"",
+	"displayText": "plus|fa-solid",
+	"filename": "plus"
+}, {
+	"text": "./i/fa/solid/podcast.png\"",
+	"displayText": "podcast|fa-solid",
+	"filename": "podcast"
+}, {
+	"text": "./i/fa/solid/poll-h.png\"",
+	"displayText": "poll-h|fa-solid",
+	"filename": "poll-h"
+}, {
+	"text": "./i/fa/solid/poll.png\"",
+	"displayText": "poll|fa-solid",
+	"filename": "poll"
+}, {
+	"text": "./i/fa/solid/poo-storm.png\"",
+	"displayText": "poo-storm|fa-solid",
+	"filename": "poo-storm"
+}, {
+	"text": "./i/fa/solid/poo.png\"",
+	"displayText": "poo|fa-solid",
+	"filename": "poo"
+}, {
+	"text": "./i/fa/solid/poop.png\"",
+	"displayText": "poop|fa-solid",
+	"filename": "poop"
+}, {
+	"text": "./i/fa/solid/portrait.png\"",
+	"displayText": "portrait|fa-solid",
+	"filename": "portrait"
+}, {
+	"text": "./i/fa/solid/pound-sign.png\"",
+	"displayText": "pound-sign|fa-solid",
+	"filename": "pound-sign"
+}, {
+	"text": "./i/fa/solid/power-off.png\"",
+	"displayText": "power-off|fa-solid",
+	"filename": "power-off"
+}, {
+	"text": "./i/fa/solid/pray.png\"",
+	"displayText": "pray|fa-solid",
+	"filename": "pray"
+}, {
+	"text": "./i/fa/solid/praying-hands.png\"",
+	"displayText": "praying-hands|fa-solid",
+	"filename": "praying-hands"
+}, {
+	"text": "./i/fa/solid/prescription-bottle-alt.png\"",
+	"displayText": "prescription-bottle-alt|fa-solid",
+	"filename": "prescription-bottle-alt"
+}, {
+	"text": "./i/fa/solid/prescription-bottle.png\"",
+	"displayText": "prescription-bottle|fa-solid",
+	"filename": "prescription-bottle"
+}, {
+	"text": "./i/fa/solid/prescription.png\"",
+	"displayText": "prescription|fa-solid",
+	"filename": "prescription"
+}, {
+	"text": "./i/fa/solid/print.png\"",
+	"displayText": "print|fa-solid",
+	"filename": "print"
+}, {
+	"text": "./i/fa/solid/procedures.png\"",
+	"displayText": "procedures|fa-solid",
+	"filename": "procedures"
+}, {
+	"text": "./i/fa/solid/project-diagram.png\"",
+	"displayText": "project-diagram|fa-solid",
+	"filename": "project-diagram"
+}, {
+	"text": "./i/fa/solid/pump-medical.png\"",
+	"displayText": "pump-medical|fa-solid",
+	"filename": "pump-medical"
+}, {
+	"text": "./i/fa/solid/pump-soap.png\"",
+	"displayText": "pump-soap|fa-solid",
+	"filename": "pump-soap"
+}, {
+	"text": "./i/fa/solid/puzzle-piece.png\"",
+	"displayText": "puzzle-piece|fa-solid",
+	"filename": "puzzle-piece"
+}, {
+	"text": "./i/fa/solid/qrcode.png\"",
+	"displayText": "qrcode|fa-solid",
+	"filename": "qrcode"
+}, {
+	"text": "./i/fa/solid/question-circle.png\"",
+	"displayText": "question-circle|fa-solid",
+	"filename": "question-circle"
+}, {
+	"text": "./i/fa/solid/question.png\"",
+	"displayText": "question|fa-solid",
+	"filename": "question"
+}, {
+	"text": "./i/fa/solid/quidditch.png\"",
+	"displayText": "quidditch|fa-solid",
+	"filename": "quidditch"
+}, {
+	"text": "./i/fa/solid/quote-left.png\"",
+	"displayText": "quote-left|fa-solid",
+	"filename": "quote-left"
+}, {
+	"text": "./i/fa/solid/quote-right.png\"",
+	"displayText": "quote-right|fa-solid",
+	"filename": "quote-right"
+}, {
+	"text": "./i/fa/solid/quran.png\"",
+	"displayText": "quran|fa-solid",
+	"filename": "quran"
+}, {
+	"text": "./i/fa/solid/radiation-alt.png\"",
+	"displayText": "radiation-alt|fa-solid",
+	"filename": "radiation-alt"
+}, {
+	"text": "./i/fa/solid/radiation.png\"",
+	"displayText": "radiation|fa-solid",
+	"filename": "radiation"
+}, {
+	"text": "./i/fa/solid/rainbow.png\"",
+	"displayText": "rainbow|fa-solid",
+	"filename": "rainbow"
+}, {
+	"text": "./i/fa/solid/random.png\"",
+	"displayText": "random|fa-solid",
+	"filename": "random"
+}, {
+	"text": "./i/fa/solid/receipt.png\"",
+	"displayText": "receipt|fa-solid",
+	"filename": "receipt"
+}, {
+	"text": "./i/fa/solid/record-vinyl.png\"",
+	"displayText": "record-vinyl|fa-solid",
+	"filename": "record-vinyl"
+}, {
+	"text": "./i/fa/solid/recycle.png\"",
+	"displayText": "recycle|fa-solid",
+	"filename": "recycle"
+}, {
+	"text": "./i/fa/solid/redo-alt.png\"",
+	"displayText": "redo-alt|fa-solid",
+	"filename": "redo-alt"
+}, {
+	"text": "./i/fa/solid/redo.png\"",
+	"displayText": "redo|fa-solid",
+	"filename": "redo"
+}, {
+	"text": "./i/fa/solid/registered.png\"",
+	"displayText": "registered|fa-solid",
+	"filename": "registered"
+}, {
+	"text": "./i/fa/solid/remove-format.png\"",
+	"displayText": "remove-format|fa-solid",
+	"filename": "remove-format"
+}, {
+	"text": "./i/fa/solid/reply-all.png\"",
+	"displayText": "reply-all|fa-solid",
+	"filename": "reply-all"
+}, {
+	"text": "./i/fa/solid/reply.png\"",
+	"displayText": "reply|fa-solid",
+	"filename": "reply"
+}, {
+	"text": "./i/fa/solid/republican.png\"",
+	"displayText": "republican|fa-solid",
+	"filename": "republican"
+}, {
+	"text": "./i/fa/solid/restroom.png\"",
+	"displayText": "restroom|fa-solid",
+	"filename": "restroom"
+}, {
+	"text": "./i/fa/solid/retweet.png\"",
+	"displayText": "retweet|fa-solid",
+	"filename": "retweet"
+}, {
+	"text": "./i/fa/solid/ribbon.png\"",
+	"displayText": "ribbon|fa-solid",
+	"filename": "ribbon"
+}, {
+	"text": "./i/fa/solid/ring.png\"",
+	"displayText": "ring|fa-solid",
+	"filename": "ring"
+}, {
+	"text": "./i/fa/solid/road.png\"",
+	"displayText": "road|fa-solid",
+	"filename": "road"
+}, {
+	"text": "./i/fa/solid/robot.png\"",
+	"displayText": "robot|fa-solid",
+	"filename": "robot"
+}, {
+	"text": "./i/fa/solid/rocket.png\"",
+	"displayText": "rocket|fa-solid",
+	"filename": "rocket"
+}, {
+	"text": "./i/fa/solid/route.png\"",
+	"displayText": "route|fa-solid",
+	"filename": "route"
+}, {
+	"text": "./i/fa/solid/rss-square.png\"",
+	"displayText": "rss-square|fa-solid",
+	"filename": "rss-square"
+}, {
+	"text": "./i/fa/solid/rss.png\"",
+	"displayText": "rss|fa-solid",
+	"filename": "rss"
+}, {
+	"text": "./i/fa/solid/ruble-sign.png\"",
+	"displayText": "ruble-sign|fa-solid",
+	"filename": "ruble-sign"
+}, {
+	"text": "./i/fa/solid/ruler-combined.png\"",
+	"displayText": "ruler-combined|fa-solid",
+	"filename": "ruler-combined"
+}, {
+	"text": "./i/fa/solid/ruler-horizontal.png\"",
+	"displayText": "ruler-horizontal|fa-solid",
+	"filename": "ruler-horizontal"
+}, {
+	"text": "./i/fa/solid/ruler-vertical.png\"",
+	"displayText": "ruler-vertical|fa-solid",
+	"filename": "ruler-vertical"
+}, {
+	"text": "./i/fa/solid/ruler.png\"",
+	"displayText": "ruler|fa-solid",
+	"filename": "ruler"
+}, {
+	"text": "./i/fa/solid/running.png\"",
+	"displayText": "running|fa-solid",
+	"filename": "running"
+}, {
+	"text": "./i/fa/solid/rupee-sign.png\"",
+	"displayText": "rupee-sign|fa-solid",
+	"filename": "rupee-sign"
+}, {
+	"text": "./i/fa/solid/sad-cry.png\"",
+	"displayText": "sad-cry|fa-solid",
+	"filename": "sad-cry"
+}, {
+	"text": "./i/fa/solid/sad-tear.png\"",
+	"displayText": "sad-tear|fa-solid",
+	"filename": "sad-tear"
+}, {
+	"text": "./i/fa/solid/satellite-dish.png\"",
+	"displayText": "satellite-dish|fa-solid",
+	"filename": "satellite-dish"
+}, {
+	"text": "./i/fa/solid/satellite.png\"",
+	"displayText": "satellite|fa-solid",
+	"filename": "satellite"
+}, {
+	"text": "./i/fa/solid/save.png\"",
+	"displayText": "save|fa-solid",
+	"filename": "save"
+}, {
+	"text": "./i/fa/solid/school.png\"",
+	"displayText": "school|fa-solid",
+	"filename": "school"
+}, {
+	"text": "./i/fa/solid/screwdriver.png\"",
+	"displayText": "screwdriver|fa-solid",
+	"filename": "screwdriver"
+}, {
+	"text": "./i/fa/solid/scroll.png\"",
+	"displayText": "scroll|fa-solid",
+	"filename": "scroll"
+}, {
+	"text": "./i/fa/solid/sd-card.png\"",
+	"displayText": "sd-card|fa-solid",
+	"filename": "sd-card"
+}, {
+	"text": "./i/fa/solid/search-dollar.png\"",
+	"displayText": "search-dollar|fa-solid",
+	"filename": "search-dollar"
+}, {
+	"text": "./i/fa/solid/search-location.png\"",
+	"displayText": "search-location|fa-solid",
+	"filename": "search-location"
+}, {
+	"text": "./i/fa/solid/search-minus.png\"",
+	"displayText": "search-minus|fa-solid",
+	"filename": "search-minus"
+}, {
+	"text": "./i/fa/solid/search-plus.png\"",
+	"displayText": "search-plus|fa-solid",
+	"filename": "search-plus"
+}, {
+	"text": "./i/fa/solid/search.png\"",
+	"displayText": "search|fa-solid",
+	"filename": "search"
+}, {
+	"text": "./i/fa/solid/seedling.png\"",
+	"displayText": "seedling|fa-solid",
+	"filename": "seedling"
+}, {
+	"text": "./i/fa/solid/server.png\"",
+	"displayText": "server|fa-solid",
+	"filename": "server"
+}, {
+	"text": "./i/fa/solid/shapes.png\"",
+	"displayText": "shapes|fa-solid",
+	"filename": "shapes"
+}, {
+	"text": "./i/fa/solid/share-alt-square.png\"",
+	"displayText": "share-alt-square|fa-solid",
+	"filename": "share-alt-square"
+}, {
+	"text": "./i/fa/solid/share-alt.png\"",
+	"displayText": "share-alt|fa-solid",
+	"filename": "share-alt"
+}, {
+	"text": "./i/fa/solid/share-square.png\"",
+	"displayText": "share-square|fa-solid",
+	"filename": "share-square"
+}, {
+	"text": "./i/fa/solid/share.png\"",
+	"displayText": "share|fa-solid",
+	"filename": "share"
+}, {
+	"text": "./i/fa/solid/shekel-sign.png\"",
+	"displayText": "shekel-sign|fa-solid",
+	"filename": "shekel-sign"
+}, {
+	"text": "./i/fa/solid/shield-alt.png\"",
+	"displayText": "shield-alt|fa-solid",
+	"filename": "shield-alt"
+}, {
+	"text": "./i/fa/solid/shield-virus.png\"",
+	"displayText": "shield-virus|fa-solid",
+	"filename": "shield-virus"
+}, {
+	"text": "./i/fa/solid/ship.png\"",
+	"displayText": "ship|fa-solid",
+	"filename": "ship"
+}, {
+	"text": "./i/fa/solid/shipping-fast.png\"",
+	"displayText": "shipping-fast|fa-solid",
+	"filename": "shipping-fast"
+}, {
+	"text": "./i/fa/solid/shoe-prints.png\"",
+	"displayText": "shoe-prints|fa-solid",
+	"filename": "shoe-prints"
+}, {
+	"text": "./i/fa/solid/shopping-bag.png\"",
+	"displayText": "shopping-bag|fa-solid",
+	"filename": "shopping-bag"
+}, {
+	"text": "./i/fa/solid/shopping-basket.png\"",
+	"displayText": "shopping-basket|fa-solid",
+	"filename": "shopping-basket"
+}, {
+	"text": "./i/fa/solid/shopping-cart.png\"",
+	"displayText": "shopping-cart|fa-solid",
+	"filename": "shopping-cart"
+}, {
+	"text": "./i/fa/solid/shower.png\"",
+	"displayText": "shower|fa-solid",
+	"filename": "shower"
+}, {
+	"text": "./i/fa/solid/shuttle-van.png\"",
+	"displayText": "shuttle-van|fa-solid",
+	"filename": "shuttle-van"
+}, {
+	"text": "./i/fa/solid/sign-in-alt.png\"",
+	"displayText": "sign-in-alt|fa-solid",
+	"filename": "sign-in-alt"
+}, {
+	"text": "./i/fa/solid/sign-language.png\"",
+	"displayText": "sign-language|fa-solid",
+	"filename": "sign-language"
+}, {
+	"text": "./i/fa/solid/sign-out-alt.png\"",
+	"displayText": "sign-out-alt|fa-solid",
+	"filename": "sign-out-alt"
+}, {
+	"text": "./i/fa/solid/sign.png\"",
+	"displayText": "sign|fa-solid",
+	"filename": "sign"
+}, {
+	"text": "./i/fa/solid/signal.png\"",
+	"displayText": "signal|fa-solid",
+	"filename": "signal"
+}, {
+	"text": "./i/fa/solid/signature.png\"",
+	"displayText": "signature|fa-solid",
+	"filename": "signature"
+}, {
+	"text": "./i/fa/solid/sim-card.png\"",
+	"displayText": "sim-card|fa-solid",
+	"filename": "sim-card"
+}, {
+	"text": "./i/fa/solid/sink.png\"",
+	"displayText": "sink|fa-solid",
+	"filename": "sink"
+}, {
+	"text": "./i/fa/solid/sitemap.png\"",
+	"displayText": "sitemap|fa-solid",
+	"filename": "sitemap"
+}, {
+	"text": "./i/fa/solid/skating.png\"",
+	"displayText": "skating|fa-solid",
+	"filename": "skating"
+}, {
+	"text": "./i/fa/solid/skiing-nordic.png\"",
+	"displayText": "skiing-nordic|fa-solid",
+	"filename": "skiing-nordic"
+}, {
+	"text": "./i/fa/solid/skiing.png\"",
+	"displayText": "skiing|fa-solid",
+	"filename": "skiing"
+}, {
+	"text": "./i/fa/solid/skull-crossbones.png\"",
+	"displayText": "skull-crossbones|fa-solid",
+	"filename": "skull-crossbones"
+}, {
+	"text": "./i/fa/solid/skull.png\"",
+	"displayText": "skull|fa-solid",
+	"filename": "skull"
+}, {
+	"text": "./i/fa/solid/slash.png\"",
+	"displayText": "slash|fa-solid",
+	"filename": "slash"
+}, {
+	"text": "./i/fa/solid/sleigh.png\"",
+	"displayText": "sleigh|fa-solid",
+	"filename": "sleigh"
+}, {
+	"text": "./i/fa/solid/sliders-h.png\"",
+	"displayText": "sliders-h|fa-solid",
+	"filename": "sliders-h"
+}, {
+	"text": "./i/fa/solid/smile-beam.png\"",
+	"displayText": "smile-beam|fa-solid",
+	"filename": "smile-beam"
+}, {
+	"text": "./i/fa/solid/smile-wink.png\"",
+	"displayText": "smile-wink|fa-solid",
+	"filename": "smile-wink"
+}, {
+	"text": "./i/fa/solid/smile.png\"",
+	"displayText": "smile|fa-solid",
+	"filename": "smile"
+}, {
+	"text": "./i/fa/solid/smog.png\"",
+	"displayText": "smog|fa-solid",
+	"filename": "smog"
+}, {
+	"text": "./i/fa/solid/smoking-ban.png\"",
+	"displayText": "smoking-ban|fa-solid",
+	"filename": "smoking-ban"
+}, {
+	"text": "./i/fa/solid/smoking.png\"",
+	"displayText": "smoking|fa-solid",
+	"filename": "smoking"
+}, {
+	"text": "./i/fa/solid/sms.png\"",
+	"displayText": "sms|fa-solid",
+	"filename": "sms"
+}, {
+	"text": "./i/fa/solid/snowboarding.png\"",
+	"displayText": "snowboarding|fa-solid",
+	"filename": "snowboarding"
+}, {
+	"text": "./i/fa/solid/snowflake.png\"",
+	"displayText": "snowflake|fa-solid",
+	"filename": "snowflake"
+}, {
+	"text": "./i/fa/solid/snowman.png\"",
+	"displayText": "snowman|fa-solid",
+	"filename": "snowman"
+}, {
+	"text": "./i/fa/solid/snowplow.png\"",
+	"displayText": "snowplow|fa-solid",
+	"filename": "snowplow"
+}, {
+	"text": "./i/fa/solid/soap.png\"",
+	"displayText": "soap|fa-solid",
+	"filename": "soap"
+}, {
+	"text": "./i/fa/solid/socks.png\"",
+	"displayText": "socks|fa-solid",
+	"filename": "socks"
+}, {
+	"text": "./i/fa/solid/solar-panel.png\"",
+	"displayText": "solar-panel|fa-solid",
+	"filename": "solar-panel"
+}, {
+	"text": "./i/fa/solid/sort-alpha-down-alt.png\"",
+	"displayText": "sort-alpha-down-alt|fa-solid",
+	"filename": "sort-alpha-down-alt"
+}, {
+	"text": "./i/fa/solid/sort-alpha-down.png\"",
+	"displayText": "sort-alpha-down|fa-solid",
+	"filename": "sort-alpha-down"
+}, {
+	"text": "./i/fa/solid/sort-alpha-up-alt.png\"",
+	"displayText": "sort-alpha-up-alt|fa-solid",
+	"filename": "sort-alpha-up-alt"
+}, {
+	"text": "./i/fa/solid/sort-alpha-up.png\"",
+	"displayText": "sort-alpha-up|fa-solid",
+	"filename": "sort-alpha-up"
+}, {
+	"text": "./i/fa/solid/sort-amount-down-alt.png\"",
+	"displayText": "sort-amount-down-alt|fa-solid",
+	"filename": "sort-amount-down-alt"
+}, {
+	"text": "./i/fa/solid/sort-amount-down.png\"",
+	"displayText": "sort-amount-down|fa-solid",
+	"filename": "sort-amount-down"
+}, {
+	"text": "./i/fa/solid/sort-amount-up-alt.png\"",
+	"displayText": "sort-amount-up-alt|fa-solid",
+	"filename": "sort-amount-up-alt"
+}, {
+	"text": "./i/fa/solid/sort-amount-up.png\"",
+	"displayText": "sort-amount-up|fa-solid",
+	"filename": "sort-amount-up"
+}, {
+	"text": "./i/fa/solid/sort-down.png\"",
+	"displayText": "sort-down|fa-solid",
+	"filename": "sort-down"
+}, {
+	"text": "./i/fa/solid/sort-numeric-down-alt.png\"",
+	"displayText": "sort-numeric-down-alt|fa-solid",
+	"filename": "sort-numeric-down-alt"
+}, {
+	"text": "./i/fa/solid/sort-numeric-down.png\"",
+	"displayText": "sort-numeric-down|fa-solid",
+	"filename": "sort-numeric-down"
+}, {
+	"text": "./i/fa/solid/sort-numeric-up-alt.png\"",
+	"displayText": "sort-numeric-up-alt|fa-solid",
+	"filename": "sort-numeric-up-alt"
+}, {
+	"text": "./i/fa/solid/sort-numeric-up.png\"",
+	"displayText": "sort-numeric-up|fa-solid",
+	"filename": "sort-numeric-up"
+}, {
+	"text": "./i/fa/solid/sort-up.png\"",
+	"displayText": "sort-up|fa-solid",
+	"filename": "sort-up"
+}, {
+	"text": "./i/fa/solid/sort.png\"",
+	"displayText": "sort|fa-solid",
+	"filename": "sort"
+}, {
+	"text": "./i/fa/solid/spa.png\"",
+	"displayText": "spa|fa-solid",
+	"filename": "spa"
+}, {
+	"text": "./i/fa/solid/space-shuttle.png\"",
+	"displayText": "space-shuttle|fa-solid",
+	"filename": "space-shuttle"
+}, {
+	"text": "./i/fa/solid/spell-check.png\"",
+	"displayText": "spell-check|fa-solid",
+	"filename": "spell-check"
+}, {
+	"text": "./i/fa/solid/spider.png\"",
+	"displayText": "spider|fa-solid",
+	"filename": "spider"
+}, {
+	"text": "./i/fa/solid/spinner.png\"",
+	"displayText": "spinner|fa-solid",
+	"filename": "spinner"
+}, {
+	"text": "./i/fa/solid/splotch.png\"",
+	"displayText": "splotch|fa-solid",
+	"filename": "splotch"
+}, {
+	"text": "./i/fa/solid/spray-can.png\"",
+	"displayText": "spray-can|fa-solid",
+	"filename": "spray-can"
+}, {
+	"text": "./i/fa/solid/square-full.png\"",
+	"displayText": "square-full|fa-solid",
+	"filename": "square-full"
+}, {
+	"text": "./i/fa/solid/square-root-alt.png\"",
+	"displayText": "square-root-alt|fa-solid",
+	"filename": "square-root-alt"
+}, {
+	"text": "./i/fa/solid/square.png\"",
+	"displayText": "square|fa-solid",
+	"filename": "square"
+}, {
+	"text": "./i/fa/solid/stamp.png\"",
+	"displayText": "stamp|fa-solid",
+	"filename": "stamp"
+}, {
+	"text": "./i/fa/solid/star-and-crescent.png\"",
+	"displayText": "star-and-crescent|fa-solid",
+	"filename": "star-and-crescent"
+}, {
+	"text": "./i/fa/solid/star-half-alt.png\"",
+	"displayText": "star-half-alt|fa-solid",
+	"filename": "star-half-alt"
+}, {
+	"text": "./i/fa/solid/star-half.png\"",
+	"displayText": "star-half|fa-solid",
+	"filename": "star-half"
+}, {
+	"text": "./i/fa/solid/star-of-david.png\"",
+	"displayText": "star-of-david|fa-solid",
+	"filename": "star-of-david"
+}, {
+	"text": "./i/fa/solid/star-of-life.png\"",
+	"displayText": "star-of-life|fa-solid",
+	"filename": "star-of-life"
+}, {
+	"text": "./i/fa/solid/star.png\"",
+	"displayText": "star|fa-solid",
+	"filename": "star"
+}, {
+	"text": "./i/fa/solid/step-backward.png\"",
+	"displayText": "step-backward|fa-solid",
+	"filename": "step-backward"
+}, {
+	"text": "./i/fa/solid/step-forward.png\"",
+	"displayText": "step-forward|fa-solid",
+	"filename": "step-forward"
+}, {
+	"text": "./i/fa/solid/stethoscope.png\"",
+	"displayText": "stethoscope|fa-solid",
+	"filename": "stethoscope"
+}, {
+	"text": "./i/fa/solid/sticky-note.png\"",
+	"displayText": "sticky-note|fa-solid",
+	"filename": "sticky-note"
+}, {
+	"text": "./i/fa/solid/stop-circle.png\"",
+	"displayText": "stop-circle|fa-solid",
+	"filename": "stop-circle"
+}, {
+	"text": "./i/fa/solid/stop.png\"",
+	"displayText": "stop|fa-solid",
+	"filename": "stop"
+}, {
+	"text": "./i/fa/solid/stopwatch-20.png\"",
+	"displayText": "stopwatch-20|fa-solid",
+	"filename": "stopwatch-20"
+}, {
+	"text": "./i/fa/solid/stopwatch.png\"",
+	"displayText": "stopwatch|fa-solid",
+	"filename": "stopwatch"
+}, {
+	"text": "./i/fa/solid/store-alt-slash.png\"",
+	"displayText": "store-alt-slash|fa-solid",
+	"filename": "store-alt-slash"
+}, {
+	"text": "./i/fa/solid/store-alt.png\"",
+	"displayText": "store-alt|fa-solid",
+	"filename": "store-alt"
+}, {
+	"text": "./i/fa/solid/store-slash.png\"",
+	"displayText": "store-slash|fa-solid",
+	"filename": "store-slash"
+}, {
+	"text": "./i/fa/solid/store.png\"",
+	"displayText": "store|fa-solid",
+	"filename": "store"
+}, {
+	"text": "./i/fa/solid/stream.png\"",
+	"displayText": "stream|fa-solid",
+	"filename": "stream"
+}, {
+	"text": "./i/fa/solid/street-view.png\"",
+	"displayText": "street-view|fa-solid",
+	"filename": "street-view"
+}, {
+	"text": "./i/fa/solid/strikethrough.png\"",
+	"displayText": "strikethrough|fa-solid",
+	"filename": "strikethrough"
+}, {
+	"text": "./i/fa/solid/stroopwafel.png\"",
+	"displayText": "stroopwafel|fa-solid",
+	"filename": "stroopwafel"
+}, {
+	"text": "./i/fa/solid/subscript.png\"",
+	"displayText": "subscript|fa-solid",
+	"filename": "subscript"
+}, {
+	"text": "./i/fa/solid/subway.png\"",
+	"displayText": "subway|fa-solid",
+	"filename": "subway"
+}, {
+	"text": "./i/fa/solid/suitcase-rolling.png\"",
+	"displayText": "suitcase-rolling|fa-solid",
+	"filename": "suitcase-rolling"
+}, {
+	"text": "./i/fa/solid/suitcase.png\"",
+	"displayText": "suitcase|fa-solid",
+	"filename": "suitcase"
+}, {
+	"text": "./i/fa/solid/sun.png\"",
+	"displayText": "sun|fa-solid",
+	"filename": "sun"
+}, {
+	"text": "./i/fa/solid/superscript.png\"",
+	"displayText": "superscript|fa-solid",
+	"filename": "superscript"
+}, {
+	"text": "./i/fa/solid/surprise.png\"",
+	"displayText": "surprise|fa-solid",
+	"filename": "surprise"
+}, {
+	"text": "./i/fa/solid/swatchbook.png\"",
+	"displayText": "swatchbook|fa-solid",
+	"filename": "swatchbook"
+}, {
+	"text": "./i/fa/solid/swimmer.png\"",
+	"displayText": "swimmer|fa-solid",
+	"filename": "swimmer"
+}, {
+	"text": "./i/fa/solid/swimming-pool.png\"",
+	"displayText": "swimming-pool|fa-solid",
+	"filename": "swimming-pool"
+}, {
+	"text": "./i/fa/solid/synagogue.png\"",
+	"displayText": "synagogue|fa-solid",
+	"filename": "synagogue"
+}, {
+	"text": "./i/fa/solid/sync-alt.png\"",
+	"displayText": "sync-alt|fa-solid",
+	"filename": "sync-alt"
+}, {
+	"text": "./i/fa/solid/sync.png\"",
+	"displayText": "sync|fa-solid",
+	"filename": "sync"
+}, {
+	"text": "./i/fa/solid/syringe.png\"",
+	"displayText": "syringe|fa-solid",
+	"filename": "syringe"
+}, {
+	"text": "./i/fa/solid/table-tennis.png\"",
+	"displayText": "table-tennis|fa-solid",
+	"filename": "table-tennis"
+}, {
+	"text": "./i/fa/solid/table.png\"",
+	"displayText": "table|fa-solid",
+	"filename": "table"
+}, {
+	"text": "./i/fa/solid/tablet-alt.png\"",
+	"displayText": "tablet-alt|fa-solid",
+	"filename": "tablet-alt"
+}, {
+	"text": "./i/fa/solid/tablet.png\"",
+	"displayText": "tablet|fa-solid",
+	"filename": "tablet"
+}, {
+	"text": "./i/fa/solid/tablets.png\"",
+	"displayText": "tablets|fa-solid",
+	"filename": "tablets"
+}, {
+	"text": "./i/fa/solid/tachometer-alt.png\"",
+	"displayText": "tachometer-alt|fa-solid",
+	"filename": "tachometer-alt"
+}, {
+	"text": "./i/fa/solid/tag.png\"",
+	"displayText": "tag|fa-solid",
+	"filename": "tag"
+}, {
+	"text": "./i/fa/solid/tags.png\"",
+	"displayText": "tags|fa-solid",
+	"filename": "tags"
+}, {
+	"text": "./i/fa/solid/tape.png\"",
+	"displayText": "tape|fa-solid",
+	"filename": "tape"
+}, {
+	"text": "./i/fa/solid/tasks.png\"",
+	"displayText": "tasks|fa-solid",
+	"filename": "tasks"
+}, {
+	"text": "./i/fa/solid/taxi.png\"",
+	"displayText": "taxi|fa-solid",
+	"filename": "taxi"
+}, {
+	"text": "./i/fa/solid/teeth-open.png\"",
+	"displayText": "teeth-open|fa-solid",
+	"filename": "teeth-open"
+}, {
+	"text": "./i/fa/solid/teeth.png\"",
+	"displayText": "teeth|fa-solid",
+	"filename": "teeth"
+}, {
+	"text": "./i/fa/solid/temperature-high.png\"",
+	"displayText": "temperature-high|fa-solid",
+	"filename": "temperature-high"
+}, {
+	"text": "./i/fa/solid/temperature-low.png\"",
+	"displayText": "temperature-low|fa-solid",
+	"filename": "temperature-low"
+}, {
+	"text": "./i/fa/solid/tenge.png\"",
+	"displayText": "tenge|fa-solid",
+	"filename": "tenge"
+}, {
+	"text": "./i/fa/solid/terminal.png\"",
+	"displayText": "terminal|fa-solid",
+	"filename": "terminal"
+}, {
+	"text": "./i/fa/solid/text-height.png\"",
+	"displayText": "text-height|fa-solid",
+	"filename": "text-height"
+}, {
+	"text": "./i/fa/solid/text-width.png\"",
+	"displayText": "text-width|fa-solid",
+	"filename": "text-width"
+}, {
+	"text": "./i/fa/solid/th-large.png\"",
+	"displayText": "th-large|fa-solid",
+	"filename": "th-large"
+}, {
+	"text": "./i/fa/solid/th-list.png\"",
+	"displayText": "th-list|fa-solid",
+	"filename": "th-list"
+}, {
+	"text": "./i/fa/solid/th.png\"",
+	"displayText": "th|fa-solid",
+	"filename": "th"
+}, {
+	"text": "./i/fa/solid/theater-masks.png\"",
+	"displayText": "theater-masks|fa-solid",
+	"filename": "theater-masks"
+}, {
+	"text": "./i/fa/solid/thermometer-empty.png\"",
+	"displayText": "thermometer-empty|fa-solid",
+	"filename": "thermometer-empty"
+}, {
+	"text": "./i/fa/solid/thermometer-full.png\"",
+	"displayText": "thermometer-full|fa-solid",
+	"filename": "thermometer-full"
+}, {
+	"text": "./i/fa/solid/thermometer-half.png\"",
+	"displayText": "thermometer-half|fa-solid",
+	"filename": "thermometer-half"
+}, {
+	"text": "./i/fa/solid/thermometer-quarter.png\"",
+	"displayText": "thermometer-quarter|fa-solid",
+	"filename": "thermometer-quarter"
+}, {
+	"text": "./i/fa/solid/thermometer-three-quarters.png\"",
+	"displayText": "thermometer-three-quarters|fa-solid",
+	"filename": "thermometer-three-quarters"
+}, {
+	"text": "./i/fa/solid/thermometer.png\"",
+	"displayText": "thermometer|fa-solid",
+	"filename": "thermometer"
+}, {
+	"text": "./i/fa/solid/thumbs-down.png\"",
+	"displayText": "thumbs-down|fa-solid",
+	"filename": "thumbs-down"
+}, {
+	"text": "./i/fa/solid/thumbs-up.png\"",
+	"displayText": "thumbs-up|fa-solid",
+	"filename": "thumbs-up"
+}, {
+	"text": "./i/fa/solid/thumbtack.png\"",
+	"displayText": "thumbtack|fa-solid",
+	"filename": "thumbtack"
+}, {
+	"text": "./i/fa/solid/ticket-alt.png\"",
+	"displayText": "ticket-alt|fa-solid",
+	"filename": "ticket-alt"
+}, {
+	"text": "./i/fa/solid/times-circle.png\"",
+	"displayText": "times-circle|fa-solid",
+	"filename": "times-circle"
+}, {
+	"text": "./i/fa/solid/times.png\"",
+	"displayText": "times|fa-solid",
+	"filename": "times"
+}, {
+	"text": "./i/fa/solid/tint-slash.png\"",
+	"displayText": "tint-slash|fa-solid",
+	"filename": "tint-slash"
+}, {
+	"text": "./i/fa/solid/tint.png\"",
+	"displayText": "tint|fa-solid",
+	"filename": "tint"
+}, {
+	"text": "./i/fa/solid/tired.png\"",
+	"displayText": "tired|fa-solid",
+	"filename": "tired"
+}, {
+	"text": "./i/fa/solid/toggle-off.png\"",
+	"displayText": "toggle-off|fa-solid",
+	"filename": "toggle-off"
+}, {
+	"text": "./i/fa/solid/toggle-on.png\"",
+	"displayText": "toggle-on|fa-solid",
+	"filename": "toggle-on"
+}, {
+	"text": "./i/fa/solid/toilet-paper-slash.png\"",
+	"displayText": "toilet-paper-slash|fa-solid",
+	"filename": "toilet-paper-slash"
+}, {
+	"text": "./i/fa/solid/toilet-paper.png\"",
+	"displayText": "toilet-paper|fa-solid",
+	"filename": "toilet-paper"
+}, {
+	"text": "./i/fa/solid/toilet.png\"",
+	"displayText": "toilet|fa-solid",
+	"filename": "toilet"
+}, {
+	"text": "./i/fa/solid/toolbox.png\"",
+	"displayText": "toolbox|fa-solid",
+	"filename": "toolbox"
+}, {
+	"text": "./i/fa/solid/tools.png\"",
+	"displayText": "tools|fa-solid",
+	"filename": "tools"
+}, {
+	"text": "./i/fa/solid/tooth.png\"",
+	"displayText": "tooth|fa-solid",
+	"filename": "tooth"
+}, {
+	"text": "./i/fa/solid/torah.png\"",
+	"displayText": "torah|fa-solid",
+	"filename": "torah"
+}, {
+	"text": "./i/fa/solid/torii-gate.png\"",
+	"displayText": "torii-gate|fa-solid",
+	"filename": "torii-gate"
+}, {
+	"text": "./i/fa/solid/tractor.png\"",
+	"displayText": "tractor|fa-solid",
+	"filename": "tractor"
+}, {
+	"text": "./i/fa/solid/trademark.png\"",
+	"displayText": "trademark|fa-solid",
+	"filename": "trademark"
+}, {
+	"text": "./i/fa/solid/traffic-light.png\"",
+	"displayText": "traffic-light|fa-solid",
+	"filename": "traffic-light"
+}, {
+	"text": "./i/fa/solid/trailer.png\"",
+	"displayText": "trailer|fa-solid",
+	"filename": "trailer"
+}, {
+	"text": "./i/fa/solid/train.png\"",
+	"displayText": "train|fa-solid",
+	"filename": "train"
+}, {
+	"text": "./i/fa/solid/tram.png\"",
+	"displayText": "tram|fa-solid",
+	"filename": "tram"
+}, {
+	"text": "./i/fa/solid/transgender-alt.png\"",
+	"displayText": "transgender-alt|fa-solid",
+	"filename": "transgender-alt"
+}, {
+	"text": "./i/fa/solid/transgender.png\"",
+	"displayText": "transgender|fa-solid",
+	"filename": "transgender"
+}, {
+	"text": "./i/fa/solid/trash-alt.png\"",
+	"displayText": "trash-alt|fa-solid",
+	"filename": "trash-alt"
+}, {
+	"text": "./i/fa/solid/trash-restore-alt.png\"",
+	"displayText": "trash-restore-alt|fa-solid",
+	"filename": "trash-restore-alt"
+}, {
+	"text": "./i/fa/solid/trash-restore.png\"",
+	"displayText": "trash-restore|fa-solid",
+	"filename": "trash-restore"
+}, {
+	"text": "./i/fa/solid/trash.png\"",
+	"displayText": "trash|fa-solid",
+	"filename": "trash"
+}, {
+	"text": "./i/fa/solid/tree.png\"",
+	"displayText": "tree|fa-solid",
+	"filename": "tree"
+}, {
+	"text": "./i/fa/solid/trophy.png\"",
+	"displayText": "trophy|fa-solid",
+	"filename": "trophy"
+}, {
+	"text": "./i/fa/solid/truck-loading.png\"",
+	"displayText": "truck-loading|fa-solid",
+	"filename": "truck-loading"
+}, {
+	"text": "./i/fa/solid/truck-monster.png\"",
+	"displayText": "truck-monster|fa-solid",
+	"filename": "truck-monster"
+}, {
+	"text": "./i/fa/solid/truck-moving.png\"",
+	"displayText": "truck-moving|fa-solid",
+	"filename": "truck-moving"
+}, {
+	"text": "./i/fa/solid/truck-pickup.png\"",
+	"displayText": "truck-pickup|fa-solid",
+	"filename": "truck-pickup"
+}, {
+	"text": "./i/fa/solid/truck.png\"",
+	"displayText": "truck|fa-solid",
+	"filename": "truck"
+}, {
+	"text": "./i/fa/solid/tshirt.png\"",
+	"displayText": "tshirt|fa-solid",
+	"filename": "tshirt"
+}, {
+	"text": "./i/fa/solid/tty.png\"",
+	"displayText": "tty|fa-solid",
+	"filename": "tty"
+}, {
+	"text": "./i/fa/solid/tv.png\"",
+	"displayText": "tv|fa-solid",
+	"filename": "tv"
+}, {
+	"text": "./i/fa/solid/umbrella-beach.png\"",
+	"displayText": "umbrella-beach|fa-solid",
+	"filename": "umbrella-beach"
+}, {
+	"text": "./i/fa/solid/umbrella.png\"",
+	"displayText": "umbrella|fa-solid",
+	"filename": "umbrella"
+}, {
+	"text": "./i/fa/solid/underline.png\"",
+	"displayText": "underline|fa-solid",
+	"filename": "underline"
+}, {
+	"text": "./i/fa/solid/undo-alt.png\"",
+	"displayText": "undo-alt|fa-solid",
+	"filename": "undo-alt"
+}, {
+	"text": "./i/fa/solid/undo.png\"",
+	"displayText": "undo|fa-solid",
+	"filename": "undo"
+}, {
+	"text": "./i/fa/solid/universal-access.png\"",
+	"displayText": "universal-access|fa-solid",
+	"filename": "universal-access"
+}, {
+	"text": "./i/fa/solid/university.png\"",
+	"displayText": "university|fa-solid",
+	"filename": "university"
+}, {
+	"text": "./i/fa/solid/unlink.png\"",
+	"displayText": "unlink|fa-solid",
+	"filename": "unlink"
+}, {
+	"text": "./i/fa/solid/unlock-alt.png\"",
+	"displayText": "unlock-alt|fa-solid",
+	"filename": "unlock-alt"
+}, {
+	"text": "./i/fa/solid/unlock.png\"",
+	"displayText": "unlock|fa-solid",
+	"filename": "unlock"
+}, {
+	"text": "./i/fa/solid/upload.png\"",
+	"displayText": "upload|fa-solid",
+	"filename": "upload"
+}, {
+	"text": "./i/fa/solid/user-alt-slash.png\"",
+	"displayText": "user-alt-slash|fa-solid",
+	"filename": "user-alt-slash"
+}, {
+	"text": "./i/fa/solid/user-alt.png\"",
+	"displayText": "user-alt|fa-solid",
+	"filename": "user-alt"
+}, {
+	"text": "./i/fa/solid/user-astronaut.png\"",
+	"displayText": "user-astronaut|fa-solid",
+	"filename": "user-astronaut"
+}, {
+	"text": "./i/fa/solid/user-check.png\"",
+	"displayText": "user-check|fa-solid",
+	"filename": "user-check"
+}, {
+	"text": "./i/fa/solid/user-circle.png\"",
+	"displayText": "user-circle|fa-solid",
+	"filename": "user-circle"
+}, {
+	"text": "./i/fa/solid/user-clock.png\"",
+	"displayText": "user-clock|fa-solid",
+	"filename": "user-clock"
+}, {
+	"text": "./i/fa/solid/user-cog.png\"",
+	"displayText": "user-cog|fa-solid",
+	"filename": "user-cog"
+}, {
+	"text": "./i/fa/solid/user-edit.png\"",
+	"displayText": "user-edit|fa-solid",
+	"filename": "user-edit"
+}, {
+	"text": "./i/fa/solid/user-friends.png\"",
+	"displayText": "user-friends|fa-solid",
+	"filename": "user-friends"
+}, {
+	"text": "./i/fa/solid/user-graduate.png\"",
+	"displayText": "user-graduate|fa-solid",
+	"filename": "user-graduate"
+}, {
+	"text": "./i/fa/solid/user-injured.png\"",
+	"displayText": "user-injured|fa-solid",
+	"filename": "user-injured"
+}, {
+	"text": "./i/fa/solid/user-lock.png\"",
+	"displayText": "user-lock|fa-solid",
+	"filename": "user-lock"
+}, {
+	"text": "./i/fa/solid/user-md.png\"",
+	"displayText": "user-md|fa-solid",
+	"filename": "user-md"
+}, {
+	"text": "./i/fa/solid/user-minus.png\"",
+	"displayText": "user-minus|fa-solid",
+	"filename": "user-minus"
+}, {
+	"text": "./i/fa/solid/user-ninja.png\"",
+	"displayText": "user-ninja|fa-solid",
+	"filename": "user-ninja"
+}, {
+	"text": "./i/fa/solid/user-nurse.png\"",
+	"displayText": "user-nurse|fa-solid",
+	"filename": "user-nurse"
+}, {
+	"text": "./i/fa/solid/user-plus.png\"",
+	"displayText": "user-plus|fa-solid",
+	"filename": "user-plus"
+}, {
+	"text": "./i/fa/solid/user-secret.png\"",
+	"displayText": "user-secret|fa-solid",
+	"filename": "user-secret"
+}, {
+	"text": "./i/fa/solid/user-shield.png\"",
+	"displayText": "user-shield|fa-solid",
+	"filename": "user-shield"
+}, {
+	"text": "./i/fa/solid/user-slash.png\"",
+	"displayText": "user-slash|fa-solid",
+	"filename": "user-slash"
+}, {
+	"text": "./i/fa/solid/user-tag.png\"",
+	"displayText": "user-tag|fa-solid",
+	"filename": "user-tag"
+}, {
+	"text": "./i/fa/solid/user-tie.png\"",
+	"displayText": "user-tie|fa-solid",
+	"filename": "user-tie"
+}, {
+	"text": "./i/fa/solid/user-times.png\"",
+	"displayText": "user-times|fa-solid",
+	"filename": "user-times"
+}, {
+	"text": "./i/fa/solid/user.png\"",
+	"displayText": "user|fa-solid",
+	"filename": "user"
+}, {
+	"text": "./i/fa/solid/users-cog.png\"",
+	"displayText": "users-cog|fa-solid",
+	"filename": "users-cog"
+}, {
+	"text": "./i/fa/solid/users-slash.png\"",
+	"displayText": "users-slash|fa-solid",
+	"filename": "users-slash"
+}, {
+	"text": "./i/fa/solid/users.png\"",
+	"displayText": "users|fa-solid",
+	"filename": "users"
+}, {
+	"text": "./i/fa/solid/utensil-spoon.png\"",
+	"displayText": "utensil-spoon|fa-solid",
+	"filename": "utensil-spoon"
+}, {
+	"text": "./i/fa/solid/utensils.png\"",
+	"displayText": "utensils|fa-solid",
+	"filename": "utensils"
+}, {
+	"text": "./i/fa/solid/vector-square.png\"",
+	"displayText": "vector-square|fa-solid",
+	"filename": "vector-square"
+}, {
+	"text": "./i/fa/solid/venus-double.png\"",
+	"displayText": "venus-double|fa-solid",
+	"filename": "venus-double"
+}, {
+	"text": "./i/fa/solid/venus-mars.png\"",
+	"displayText": "venus-mars|fa-solid",
+	"filename": "venus-mars"
+}, {
+	"text": "./i/fa/solid/venus.png\"",
+	"displayText": "venus|fa-solid",
+	"filename": "venus"
+}, {
+	"text": "./i/fa/solid/vest-patches.png\"",
+	"displayText": "vest-patches|fa-solid",
+	"filename": "vest-patches"
+}, {
+	"text": "./i/fa/solid/vest.png\"",
+	"displayText": "vest|fa-solid",
+	"filename": "vest"
+}, {
+	"text": "./i/fa/solid/vial.png\"",
+	"displayText": "vial|fa-solid",
+	"filename": "vial"
+}, {
+	"text": "./i/fa/solid/vials.png\"",
+	"displayText": "vials|fa-solid",
+	"filename": "vials"
+}, {
+	"text": "./i/fa/solid/video-slash.png\"",
+	"displayText": "video-slash|fa-solid",
+	"filename": "video-slash"
+}, {
+	"text": "./i/fa/solid/video.png\"",
+	"displayText": "video|fa-solid",
+	"filename": "video"
+}, {
+	"text": "./i/fa/solid/vihara.png\"",
+	"displayText": "vihara|fa-solid",
+	"filename": "vihara"
+}, {
+	"text": "./i/fa/solid/virus-slash.png\"",
+	"displayText": "virus-slash|fa-solid",
+	"filename": "virus-slash"
+}, {
+	"text": "./i/fa/solid/virus.png\"",
+	"displayText": "virus|fa-solid",
+	"filename": "virus"
+}, {
+	"text": "./i/fa/solid/viruses.png\"",
+	"displayText": "viruses|fa-solid",
+	"filename": "viruses"
+}, {
+	"text": "./i/fa/solid/voicemail.png\"",
+	"displayText": "voicemail|fa-solid",
+	"filename": "voicemail"
+}, {
+	"text": "./i/fa/solid/volleyball-ball.png\"",
+	"displayText": "volleyball-ball|fa-solid",
+	"filename": "volleyball-ball"
+}, {
+	"text": "./i/fa/solid/volume-down.png\"",
+	"displayText": "volume-down|fa-solid",
+	"filename": "volume-down"
+}, {
+	"text": "./i/fa/solid/volume-mute.png\"",
+	"displayText": "volume-mute|fa-solid",
+	"filename": "volume-mute"
+}, {
+	"text": "./i/fa/solid/volume-off.png\"",
+	"displayText": "volume-off|fa-solid",
+	"filename": "volume-off"
+}, {
+	"text": "./i/fa/solid/volume-up.png\"",
+	"displayText": "volume-up|fa-solid",
+	"filename": "volume-up"
+}, {
+	"text": "./i/fa/solid/vote-yea.png\"",
+	"displayText": "vote-yea|fa-solid",
+	"filename": "vote-yea"
+}, {
+	"text": "./i/fa/solid/vr-cardboard.png\"",
+	"displayText": "vr-cardboard|fa-solid",
+	"filename": "vr-cardboard"
+}, {
+	"text": "./i/fa/solid/walking.png\"",
+	"displayText": "walking|fa-solid",
+	"filename": "walking"
+}, {
+	"text": "./i/fa/solid/wallet.png\"",
+	"displayText": "wallet|fa-solid",
+	"filename": "wallet"
+}, {
+	"text": "./i/fa/solid/warehouse.png\"",
+	"displayText": "warehouse|fa-solid",
+	"filename": "warehouse"
+}, {
+	"text": "./i/fa/solid/water.png\"",
+	"displayText": "water|fa-solid",
+	"filename": "water"
+}, {
+	"text": "./i/fa/solid/wave-square.png\"",
+	"displayText": "wave-square|fa-solid",
+	"filename": "wave-square"
+}, {
+	"text": "./i/fa/solid/weight-hanging.png\"",
+	"displayText": "weight-hanging|fa-solid",
+	"filename": "weight-hanging"
+}, {
+	"text": "./i/fa/solid/weight.png\"",
+	"displayText": "weight|fa-solid",
+	"filename": "weight"
+}, {
+	"text": "./i/fa/solid/wheelchair.png\"",
+	"displayText": "wheelchair|fa-solid",
+	"filename": "wheelchair"
+}, {
+	"text": "./i/fa/solid/wifi.png\"",
+	"displayText": "wifi|fa-solid",
+	"filename": "wifi"
+}, {
+	"text": "./i/fa/solid/wind.png\"",
+	"displayText": "wind|fa-solid",
+	"filename": "wind"
+}, {
+	"text": "./i/fa/solid/window-close.png\"",
+	"displayText": "window-close|fa-solid",
+	"filename": "window-close"
+}, {
+	"text": "./i/fa/solid/window-maximize.png\"",
+	"displayText": "window-maximize|fa-solid",
+	"filename": "window-maximize"
+}, {
+	"text": "./i/fa/solid/window-minimize.png\"",
+	"displayText": "window-minimize|fa-solid",
+	"filename": "window-minimize"
+}, {
+	"text": "./i/fa/solid/window-restore.png\"",
+	"displayText": "window-restore|fa-solid",
+	"filename": "window-restore"
+}, {
+	"text": "./i/fa/solid/wine-bottle.png\"",
+	"displayText": "wine-bottle|fa-solid",
+	"filename": "wine-bottle"
+}, {
+	"text": "./i/fa/solid/wine-glass-alt.png\"",
+	"displayText": "wine-glass-alt|fa-solid",
+	"filename": "wine-glass-alt"
+}, {
+	"text": "./i/fa/solid/wine-glass.png\"",
+	"displayText": "wine-glass|fa-solid",
+	"filename": "wine-glass"
+}, {
+	"text": "./i/fa/solid/won-sign.png\"",
+	"displayText": "won-sign|fa-solid",
+	"filename": "won-sign"
+}, {
+	"text": "./i/fa/solid/wrench.png\"",
+	"displayText": "wrench|fa-solid",
+	"filename": "wrench"
+}, {
+	"text": "./i/fa/solid/x-ray.png\"",
+	"displayText": "x-ray|fa-solid",
+	"filename": "x-ray"
+}, {
+	"text": "./i/fa/solid/yen-sign.png\"",
+	"displayText": "yen-sign|fa-solid",
+	"filename": "yen-sign"
+}, {
+	"text": "./i/fa/solid/yin-yang.png\"",
+	"displayText": "yin-yang|fa-solid",
+	"filename": "yin-yang"
+}]
