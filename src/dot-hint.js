@@ -47,7 +47,6 @@
     var curWord = start != end && curLine.slice(start, end);
     const str = token.string;
     if (token.state.looking_for == "attribute" && str != "=") {
-      console.log("Break early for attribute");
       return returner(
         dotAttributes.filter((token) => token.startsWith(curWord))
       );
@@ -58,15 +57,11 @@
 
     if (endedAttr || isProperty) {
       const attribute = token.state.attribute;
-      console.log(
-        `Break early for property for attribute ${attribute} -> ${str}`
-      );
       let candidates;
       if (attribute != "image") {
         candidates = dotProperties[attribute];
       } else {
-        candidates = fontawesome.concat(aws);
-        console.log(candidates);
+        candidates = fontawesome.concat(aws).concat(oss);
         if (str == "=") {
           return returner(
             candidates.map((c) => {
@@ -91,7 +86,6 @@
       const list = candidates.filter((token) => token.startsWith(curWord));
       return returner(list);
     }
-    console.log(token);
     const candidates = variables.concat(COMPLETIONS);
     const uniqueCompletions = [...new Set(candidates)];
     const list = uniqueCompletions.filter((token) => token.startsWith(curWord));

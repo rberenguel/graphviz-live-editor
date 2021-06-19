@@ -1,0 +1,91 @@
+
+digraph G {
+  margin=0.5; // either one (all) or two (hor,vert) numbers, in inches
+  bgcolor="#ffffff00" // rgba in hex format
+  rankdir=LR // other options would be RL, TB, BT
+  compound=true // this enables logical arrow heads
+  fontname="monoidregular" // should be a valid webfont
+  overlap=false
+  node [
+    // General rules for _all_ nodes
+    fontname=monoidregular // Quotes are not mandatory 
+    labelloc=c // vert. centred labels
+    margin="0.4,0.15" // side and top margin for text in nodes
+    splines=true // allows curved arrows
+    shape=rect
+    style=rounded
+    ];
+  edge [
+  	fontname=monoidregular
+  	fontsize=6
+    minlen=2
+    lblstyle="above, sloped"
+  ];
+  subgraph cluster_items {
+    margin=5
+    style=invisible
+    subgraph cluster_2020 {
+      rank="same"
+      insights[label="Insights"]
+      scraper[label="Scraper"]
+  	  delta[label="Databricks\nDelta"]
+    }
+    subgraph cluster_2019 {
+      migration[label="Migrations,\ncleanup"]
+    }
+    subgraph cluster_2018 {
+    	aud[label="Audience\nSegments|Apache Spark", shape="Mrecord"]
+      air[label="Airflow"]
+      uim[label="User Ids\n Mapper|Apache Spark",shape="Mrecord"]
+    }
+    subgraph cluster_2017 {
+      brain[label="Brain\nService|Akka",shape="Mrecord"]
+    }
+    subgraph cluster_2016 {
+  		crop[label="Cropper"]
+      plrt[label="Retargeting"]
+    }
+    {
+      rank="same"
+    	2016->2017->2018->2019->2020->2021 
+    }
+  }
+  
+  subgraph cluster_time {
+    style=invisible
+    margin=5
+    2021
+    2020[label="{{<July>07|<Mar>03|<Feb>02}|2020}", shape="Mrecord"]
+    2019
+    2018[label="{{<July>07|<May>05}|2018}", shape="Mrecord"]
+		2017[label="{{<July>07}|2017}", shape="Mrecord"]
+    2016[label="{{<August>08|<May>05}|2016}", shape="Mrecord"]
+  }
+ {
+    scraper -> 2020:July  
+    insights -> 2020:Mar
+    delta -> 2020:Feb
+ } 
+  migration -> 2019
+  
+  uim -> 2018:May
+  aud -> 2018:July
+  air -> 2018:July
+
+  brain -> 2017:July
+   
+  crop -> 2016:May
+  plrt -> 2016:August
+  {
+    python -> crop
+    python -> air
+    python -> migration
+    python -> plrt
+    python -> scraper
+    sql -> insights 
+    k8s -> scraper
+    scala -> aud
+    scala -> uim
+    scala -> brain
+  }
+}

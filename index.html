@@ -20,6 +20,7 @@
     <script src="lib/anyword-hint.js"></script>
     <script src="src/fa.js"></script>
     <script src="src/aws.js"></script>
+    <script src="src/oss.js"></script>
     <script src="src/dot.js"></script>
     <script src="src/dotAttributes.js"></script>
     <script src="src/properties.js"></script>
@@ -40,7 +41,8 @@
         <span class="menu-item"> <i class="fa fa-file-archive" id="zippy"></i> </span>
         <span href="" class="menu-item"> <i class="fa fa-file-image" id="single-svg"></i> </span>
         <span href="" class="menu-item"> <i class="fa fa-info-circle" id="info-menu"></i> </span>
-    </nav>
+        <span href="" class="menu-item"> <i class="fa fa-lightbulb" id="get-example"></i> </span>
+      </nav>
 
     <div id="container">
         <div id="editor"></div>
@@ -79,11 +81,13 @@
                 You can find the source code
                 <a href="https://github.com/rberenguel/graphviz-live-editor">here</a>.</p>
             <p>
+              <li><i class="fa fa-lightbulb larger"></i> Use this menu button to restore the initial example</li>
                 <li><i class="fa fa-file-image larger"></i> Use this menu button to download the canvas as an SVG, with
                     any icons you use (and the Monoid font) embedded in the file</li>
                 <li><i class="fa fa-file-archive larger"></i> Use this menu button to download the whole "project" as a
                     ZIP archive. That is, any image assets you use, a DOT file you can compile locally and the image
                     exported in SVG format </li>
+                <li>As soon as you start modifying the Graphviz source it will be saved in your browser's "localStorage", it will be there when you refresh.</li>
                 <li>The editor offers some primitive autocomplete for Graphviz <a
                         href="https://graphviz.org/doc/info/attrs.html">attributes</a>, <a
                         href="https://graphviz.org/doc/info/shapes.html">node shapes</a> and some other properties, as
