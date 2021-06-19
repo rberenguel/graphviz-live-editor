@@ -10,7 +10,7 @@ h1 {
 }
 
 #container {
-  width: calc(49%-20px);
+  width: 49%;
   top: 10px;
   left: 10px;
   position: fixed;
@@ -31,7 +31,7 @@ h1 {
   position: fixed;
   height: calc(90vh);
   right: 10px;
-  width: calc(49% - 20px);
+  width: 49%;
   background: #fff;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.22);
   border-radius: 0.8rem;
